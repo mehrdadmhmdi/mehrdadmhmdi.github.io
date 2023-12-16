@@ -1,0 +1,38 @@
+title: "Mehrdad Mohammadi"
+author: "Mehrdad Mohammadi"
+description: "University of Illinois at Urbana-Champaign"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+mathjax: true
+
+# Layout
+
+show_social: true          # show site description and social links in the footer
+show_excerpts: false        # show article excerpts on the home page
+show_frame: false          # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+
+# Menu
+
+navigation:
+  - {title: "Home", url: "mehrdadmhmdi.github.io", icon: home}
+  - {title: "Research", file: "research.md"}
+  - {title: "Teaching", file: "teaching.md"}
+  - {title: "Blog", file: "blog.md"}
+  - {title: "Contact", file: "contact.md"}
+
+  
+external:                  # see http://fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:mehrdad3@illinois.com"}
+  - {title: Github, icon: github, url: "https://github.com/mehrdadmhmdi"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/mehrdad_mhmd"}
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/mehrdadmohammadi/"}
+  
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
