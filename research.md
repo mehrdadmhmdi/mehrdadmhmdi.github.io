@@ -6,7 +6,6 @@ permalink: /Research/
 **Statistical Learning , Reinforcement Learning, Sequential Decision Making,  Machine Learning Applications**
 <br/>
 
-<!DOCTYPE html>
 <html>
 <body>
 
