@@ -10,6 +10,8 @@ permalink: /Research/
 <body>
 
 <h1>Work in Progress</h1>
+- Off-policy Distributional Reinforcement Learning, M. Mohammadi, Q. Zheng, and R.Zhu
+- Offline Constraint Distributional Reinforcement Learning, M. Mohammadi, Q. Zheng, and R.Zhu
 <br/>
 <hr />
 <h1>Publications</h1>
