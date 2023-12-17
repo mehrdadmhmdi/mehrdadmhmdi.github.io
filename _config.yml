@@ -26,7 +26,7 @@ navigation:
   
 external:                  # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:mehrdad3@illinois.com"}
-  - {title: GoogleScholar, icon: "assets/fontawesome/google-scholar.svg", url: "https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en"}
+  - {title: google-scholar, icon: "./assets/fontawesome/google-scholar.svg", url: "https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en"}
   - {title: Github, icon: github, url: "https://github.com/mehrdadmhmdi"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/mehrdad_mhmd"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/mehrdadmohammadi/"}
