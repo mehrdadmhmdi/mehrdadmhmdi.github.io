@@ -12,6 +12,7 @@ permalink: /Research/
 <h1>Work in Progress</h1>
 <p> Off-policy Distributional Reinforcement Learning, M. Mohammadi, Q. Zheng, and R.Zhu</p>
 <p> Offline Constraint Distributional Reinforcement Learning, M. Mohammadi, Q. Zheng, and R.Zhu</p>
+<p> A Wasserstein-Equivalent Metric for the Space of Probability Distributions, M. Mohammadi</p>
 <br/>
 <hr />
 <h1>Publications</h1>
