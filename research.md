@@ -21,8 +21,12 @@ permalink: /Research/
 
 <h2>Collaborations</h2>
 <h3>Medical Sciences</h3>
-<p>McFarlin, B. L., Liu, Y., Villegas-Downs, M., Mohammadi, M., Simpson, D. G., Han, A., & O'Brien Jr, W. D. (2023). Predicting Spontaneous Pre-term Birth Risk Is Improved When Quantitative Ultrasound Data Are Included With Historical Clinical Data. <i>Ultrasound in Medicine & Biology,</i> 49(5), 1145-1152.Chicago, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301562922006834" target="_blank"> [pdf]</a>  </p>
-<p>McFarlin, B. L., Villegas-Downs, M., Mohammadi, M., Aiguo, H. A. N., Simpson, D. G., & O'BRIEN Jr, W. D. (2023). Enhanced Identification of At-Risk Women for Preterm Birth via Quantitative Ultrasound: A Prospective Cohort Study. <i>American Journal of Obstetrics & Gynecology MFM </i>, 101250.Chicago, <a href="https://www.sciencedirect.com/science/article/abs/pii/S2589933323003920" target="_blank"> [pdf]</a>  </p>
+
+<p>Michelle Villegas-Downs, Mehrdad Mohammadi, Aiguo Han,, William D. O'Brien Jr., Douglas G. Simpson, Tara A. Peters,Judith M. Schlaeger, and McFarlin, Barbara L. "Trajectory of Postpartum Cervical Remodeling in Women Delivering Full-term and Spontaneous Preterm: Sensitivity to Quantitative Ultrasound Biomarkers", <i>Forthcoming in Ultrasound in Medicine & Biology,</i>(2024) </p>
+
+<p>McFarlin, Barbara L., Michelle Villegas-Downs, Mehrdad Mohammadi, Aiguo Han, Douglas G. Simpson, and William D. O'Brien Jr. "Enhanced identification of women at risk for preterm birth via quantitative ultrasound: a prospective cohort study." <i>American Journal of Obstetrics & Gynecology MFM</i> 6, no. 5 (2024): 101250, <a href="https://www.sciencedirect.com/science/article/abs/pii/S2589933323003920" target="_blank"> [pdf]</a>  </p>
+
+<p>McFarlin, Barbara L., Yuxuan Liu, Michelle Villegas-Downs, Mehrdad Mohammadi, Douglas G. Simpson, Aiguo Han, and William D. O'Brien Jr. "Predicting Spontaneous Pre-term Birth Risk Is Improved When Quantitative Ultrasound Data Are Included With Historical Clinical Data." <i>Ultrasound in Medicine & Biology,</i> 49, no. 5 (2023), <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301562922006834" target="_blank"> [pdf]</a>  </p>
 
 <h3>Psychology</h3>
 
