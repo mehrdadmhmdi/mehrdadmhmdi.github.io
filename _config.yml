@@ -18,6 +18,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 navigation:
   - {title: "Home", url: "mehrdadmhmdi.github.io", icon: home}
+  - {title: "CV", file: "CV.md"}
   - {title: "Research", file: "research.md"}
   - {title: "Contact", file: "contact.md"}
 
@@ -26,7 +27,7 @@ external:                  # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:mehrdad3@illinois.com"}
   - {title: google-scholar, icon: google-scholar, url: "https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en"}
   - {title: Github, icon: github, url: "https://github.com/mehrdadmhmdi"}
-  - {title: X, icon: twitter, url: "https://twitter.com/mehrdad_mhmd"}
+  - {title: X, icon: x-twitter, url: "https://twitter.com/mehrdad_mhmd"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/mehrdadmohammadi/"}
   
 comments:
