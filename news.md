@@ -5,7 +5,7 @@ permalink: /news/
 ---
 <html>
 <body>
-<br/>
+
 <ul>
   <li><strong>April 2025:</strong> Awarded 2025 Illinois International Graduate Achievement Award. [News Link 1](https://blogs.illinois.edu/view/6758/627615639) and <a href="https://international.illinois.edu/awards-funding/achievement/grad.html" target="_blank"> [News Link 2].</a> </li>
   <li><strong>April 2025:</strong> Presented at the Bohrer Workshop on Distributional RL at UIUC Department of Statistics [News Link](https://calendars.illinois.edu/detail/1439?eventId=33507286).</li>
