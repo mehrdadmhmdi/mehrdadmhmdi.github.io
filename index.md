@@ -17,7 +17,7 @@ Before joining UIUC, I was a PhD student in the [Economics Department](https://e
     {% assign recent_news = site.news | sort: 'date' | reverse | slice: 0,3 %}
     {% for item in recent_news %}
       <li>
-        <strong>{{ item.date | date: "%B %d, %Y" }}:</strong>
+        <strong>{{ item.date | date: "%B, %Y" }}:</strong>
         <a href="{{ item.url }}">{{ item.title }}</a>
       </li>
     {% endfor %}
