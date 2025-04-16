@@ -10,16 +10,3 @@ Before joining UIUC, I was a PhD student in the [Economics Department](https://e
 
 <img src="images/mypic.jpg" align=center style="width:250px;height:250px">                                   
 
-
-<h3>News</h3>
-<div style="font-size: 0.85em; line-height: 1.4;">
-  <ul>
-    {% assign recent_news = site.news | sort: 'date' | reverse | slice: 0,3 %}
-    {% for item in recent_news %}
-      <li>
-        <strong>{{ item.date | date: "%B, %Y" }}:</strong>
-        <a href="{{ item.url }}">{{ item.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
