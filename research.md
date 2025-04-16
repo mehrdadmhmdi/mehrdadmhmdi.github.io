@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 permalink: /Research/
 ---
-**Statistical Learning, Reinforcement Learning, Sequential Decision Making,  Machine Learning Applications**
+**Statistical Learning, Reinforcement Learning, Non-parametric Statistics, Machine Learning Applications**
 <br/>
 
 <html>
