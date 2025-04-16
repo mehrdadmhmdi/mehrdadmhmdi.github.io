@@ -3,8 +3,6 @@ layout: page
 title: "News"
 permalink: /news/
 ---
-<html>
-<body>
 
 <ul>
   <li><strong>April 2025:</strong> Awarded 2025 Illinois International Graduate Achievement Award. <a href="https://blogs.illinois.edu/view/6758/627615639" target="_blank"> [News Link 1]</a>  and <a href="https://international.illinois.edu/awards-funding/achievement/grad.html" target="_blank"> [News Link 2].</a> </li>
@@ -13,5 +11,3 @@ permalink: /news/
   <li><strong>Dec 2024:</strong> Paper accepted in <i>Ultrasound in Medicine & Biology</i>, Vol. 50, Issue 12.</li>
 </ul>
 
-</body>
-</html>
