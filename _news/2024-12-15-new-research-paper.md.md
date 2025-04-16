@@ -1,5 +1,3 @@
-# _news/2024-12-15-new-research-paper.md
-
 ---
 title: "New Research Paper Published"
 date: 2024-12-15
