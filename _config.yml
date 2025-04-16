@@ -21,11 +21,6 @@ navigation:
   - {title: "News", file: "news.md"}
   - {title: "Contact", file: "contact.md"}
 
-# Collections
-collections:
-  news:
-    output: true
-    permalink: /news/:title/
 
 # External links (icons)
 external:
