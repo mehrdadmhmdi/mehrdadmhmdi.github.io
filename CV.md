@@ -6,7 +6,7 @@ permalink: /cv/
 
 <html>
 <body>
-<iframe src="/assets/Mehrdad_Mohammadi_CV.pdf" width="100%" height="800px" style="border: none;">
+<iframe src="/assets/CV.pdf" width="100%" height="800px" style="border: none;">
   This browser does not support PDFs. Please download the PDF to view it:
   <a href="/assets/CV.pdf">Download PDF</a>.
 </iframe>
