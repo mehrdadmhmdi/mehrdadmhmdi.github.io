@@ -20,7 +20,7 @@ navigation:
   - {title: "Home", url: "mehrdadmhmdi.github.io", icon: home}
   - {title: "CV", file: "CV.md"}
   - {title: "Research", file: "research.md"}
-  - {title: "News", file: "news.md", url: "/news/"}
+  - {title: "News", file: "news.md"}
   - {title: "Contact", file: "contact.md"}
 
 collections:
