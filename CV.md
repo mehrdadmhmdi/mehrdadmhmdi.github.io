@@ -12,7 +12,7 @@ permalink: /cv/
 </iframe>
 
 <p style="margin-top: 1rem;">
-  📄 <a href="/assets/CV.pdf" download>Download my CV</a>
+  📄 <a href="/assets/CV.pdf" target="_blank" rel="noopener noreferrer">Download my CV</a>
 </p>
 
 </body>
