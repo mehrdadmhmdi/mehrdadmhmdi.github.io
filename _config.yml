@@ -22,6 +22,10 @@ navigation:
   - {title: "Research", file: "research.md"}
   - {title: "Contact", file: "contact.md"}
 
+collections:
+news:
+  output: true
+  permalink: /news/:title/
   
 external:                  # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:mehrdad3@illinois.com"}
