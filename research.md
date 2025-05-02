@@ -19,7 +19,7 @@ permalink: /Research/
 <h2>Theory and Methods</h2>
 <br/>
 
-<h2>Collaborations</h2>
+<h2>Interdisciplinary Collaborations</h2>
 <h3>Medical Sciences</h3>
 
 <li>Michelle Villegas-Downs, Mehrdad Mohammadi, Aiguo Han,, William D. O'Brien Jr., Douglas G. Simpson, Tara A. Peters,Judith M. Schlaeger, and McFarlin, Barbara L. "Trajectory of Postpartum Cervical Remodeling in Women Delivering Full-term and Spontaneous Preterm: Sensitivity to Quantitative Ultrasound Biomarkers", <i> Ultrasound in Medicine & Biology,</i>(2024) <a href="https://www.sciencedirect.com/science/article/pii/S0301562924002618" target="_blank"> [pdf]</a></li>
