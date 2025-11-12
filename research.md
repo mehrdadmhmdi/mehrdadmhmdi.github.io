@@ -3,7 +3,7 @@ layout: page
 title: "Research"
 permalink: /Research/
 ---
-**Statistical Learning, Reinforcement Learning, Non-parametric Statistics, Machine Learning Applications**
+**Statistical Learning, Reinforcement Learning, Non-parametric Statistics, Machine Learning and Statistics Applications**
 <br/>
 
 <html>
@@ -11,8 +11,8 @@ permalink: /Research/
 
 <h1>Work in Progress</h1>
 <li> Off-policy Distributional Reinforcement Learning, M. Mohammadi, Q. Zheng, and R.Zhu</li>
-<li> Offline Constraint Distributional Reinforcement Learning, M. Mohammadi, Q. Zheng, and R.Zhu</li>
 <li> A Wasserstein-Equivalent Metric for the Space of Probability Distributions, M. Mohammadi</li>
+<li> A SIMEX corrected time to event Distribution Estimation with Measurement Errors, M. Mohammadi</li>
 <br/>
 <hr />
 <h1>Publications</h1>
@@ -28,7 +28,7 @@ permalink: /Research/
 
 <li>McFarlin, Barbara L., Yuxuan Liu, Michelle Villegas-Downs, Mehrdad Mohammadi, Douglas G. Simpson, Aiguo Han, and William D. O'Brien Jr. "Predicting Spontaneous Pre-term Birth Risk Is Improved When Quantitative Ultrasound Data Are Included With Historical Clinical Data." <i>Ultrasound in Medicine & Biology,</i> 49, no. 5 (2023), <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301562922006834" target="_blank"> [pdf]</a>  </li>
 
-<h3>Psychology</h3>
+<h3>Business Analytics</h3>
 
 </body>
 </html>
