@@ -3,7 +3,7 @@ layout: page
 title: "News"
 permalink: /news/
 ---
-<li><strong>November 2025:</strong> Awarded 2025 Larine Y. Cowan Make A Difference Leadership Award.<i> </i>OVCDEI, at U of I</li>
+<li><strong>November 2025:</strong> Awarded 2025 Larine Y. Cowan Make A Difference Leadership Award.<i> OVCDEI, at the U of I</i></li>
 <li><strong>August 2025:</strong> Paper <i>"Distributional Reinforcement Learning: A Hilbert Space Embedding Approach"</i> Presented at The Joint Statistical Meetings- Nashville, TN</li>
 <li><strong>April 2025:</strong> Awarded 2025 Illinois International Graduate Achievement Award. <a href="https://blogs.illinois.edu/view/6758/627615639" target="_blank"> [News Link 1]</a>  and <a href="https://international.illinois.edu/awards-funding/achievement/grad.html" target="_blank"> [News Link 2].</a> </li>
 <li><strong>April 2025:</strong> Presented at the Bohrer Workshop on Distributional RL at UIUC Department of Statistics. <a href="https://calendars.illinois.edu/detail/1439?eventId=33507286" target="_blank"> [News Link].</a>
