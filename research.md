@@ -19,7 +19,7 @@ permalink: /Research/
     border:1px solid rgba(0,0,0,.15);
     border-radius:999px;
     text-decoration:none;
-    font-size:.75rem;
+    font-size:.85rem;
     color: rgba(255,95,5,.92);          /* text color */
     background: rgba(255,255,255,.04);     /* optional */
     border-color: rgba(255,255,255,.18);   /* optional */
@@ -45,9 +45,9 @@ permalink: /Research/
     border-radius:11px;
     padding:.85rem .9rem;
     background:rgba(0,0,0,.01);
-    font-size:.7rem;
+    font-size:.8rem;
   }
-  .paper-title{margin:0;font-weight:400;line-height:1.35}
+  .paper-title{margin:0;font-weight:500;line-height:1.35}
   .paper-meta{margin:.25rem 0 0 0;opacity:.85;line-height:1.35}
   .paper-links{margin:.55rem 0 0 0;display:flex;flex-wrap:wrap;gap:.45rem}
   .pill{
@@ -56,7 +56,7 @@ permalink: /Research/
     border:1px solid rgba(0,0,0,.18);
     border-radius:999px;
     text-decoration:none;
-    font-size:.7rem;
+    font-size:.9rem;
   }
   .pill:hover{border-color:rgba(0,0,0,.35)}
 
@@ -72,13 +72,13 @@ permalink: /Research/
     border:1px solid rgba(0,0,0,.18);
     border-radius:10px;
     user-select:none;
-    font-size:.75rem;
+    font-size:.85rem;
   }
   details.paper-details > summary::-webkit-details-marker{display:none}
   details.paper-details[open] > summary{border-color:rgba(0,0,0,.35)}
   .paper-abstract{
     margin:.55rem 0 0 0;
-    font-size: 0.75rem;   /* change this */
+    font-size: 0.85rem;   /* change this */
     line-height: 1.3;
     padding:.65rem .5rem;
     border-left:3px solid rgba(0,0,0,.18);
