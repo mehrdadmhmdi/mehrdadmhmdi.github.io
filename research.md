@@ -58,7 +58,7 @@ permalink: /Research/
     text-decoration:none;
     font-size:.9rem;
   }
-  .pill:hover{border-color:rgba(0,0,0,.35)}
+  .pill:hover{border:1.5px solid rgba(0,0,0,.35)}
 
   /* Abstract button (details/summary) */
   details.paper-details{margin-top:.55rem}
