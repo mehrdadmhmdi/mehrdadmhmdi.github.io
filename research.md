@@ -161,12 +161,6 @@ permalink: /Research/
       <div class="paper-links">
         <a class="pill" href="https://www.sciencedirect.com/science/article/pii/S0301562924002618" target="_blank">pdf</a>
       </div>
-      <details class="paper-details">
-        <summary>Abstract</summary>
-        <div class="paper-abstract">
-          <em>Add abstract here (or paste 2–4 sentences).</em>
-        </div>
-      </details>
     </li>
 
     <li class="paper-card">
@@ -178,12 +172,6 @@ permalink: /Research/
       <div class="paper-links">
         <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S2589933323003920" target="_blank">pdf</a>
       </div>
-      <details class="paper-details">
-        <summary>Abstract</summary>
-        <div class="paper-abstract">
-          <em>Add abstract here (or paste 2–4 sentences).</em>
-        </div>
-      </details>
     </li>
 
     <li class="paper-card">
@@ -195,12 +183,6 @@ permalink: /Research/
       <div class="paper-links">
         <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S0301562922006834" target="_blank">pdf</a>
       </div>
-      <details class="paper-details">
-        <summary>Abstract</summary>
-        <div class="paper-abstract">
-          <em>Add abstract here (or paste 2–4 sentences).</em>
-        </div>
-      </details>
     </li>
   </ul>
 
