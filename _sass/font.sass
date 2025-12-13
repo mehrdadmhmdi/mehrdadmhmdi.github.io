@@ -1,14 +1,9 @@
-@import url("https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/serif.css")
+@import url("https://cdn.jsdelivr.net/gh/fontsource/cofosans@latest/files/cofosans-all-400-normal.woff2.css")
 
-$cmr: "Computer Modern Serif", serif
+$cofo-sans: "CoFo Sans", sans-serif;
 
-// Force Roman everywhere (including buttons, inputs)
-html, body, button, input, textarea, select
-  font-family: $cmr !important
-  font-style: normal
-  font-weight: 400
-
-h1, h2, h3, h4, h5, h6, header, header a, .title
-  font-family: $cmr !important
-  font-style: normal
-  font-weight: 700
+html, body, button, input, textarea, select,
+h1, h2, h3, h4, h5, h6, header, header a, .title,
+.research-nav a, .pill, details.paper-details > summary {
+  font-family: $cofo-sans !important;
+}
