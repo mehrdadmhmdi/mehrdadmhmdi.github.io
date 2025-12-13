@@ -100,7 +100,7 @@ permalink: /Research/
 
 <div class="research-page">
 
-<p class="research-tagline"><strong>Statistical Learning, Reinforcement Learning, Non-parametric Statistics, Machine Learning and Statistics Applications</strong></p>
+<p class="research-tagline"><strong>Statistical Learning, Reinforcement Learning, Reproducing Kernel Hilbert Spaces, Non-parametric Statistics, Machine Learning and Statistics Applications</strong></p>
 <a class="icon-link" href="https://github.com/mehrdadmhmdi" target="_blank" rel="noopener">
   <svg class="icon" aria-hidden="true">
     <use href="{{ '/assets/fontawesome/icons.svg#github' | relative_url }}"></use>
