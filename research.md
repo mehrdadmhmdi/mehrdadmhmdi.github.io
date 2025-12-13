@@ -110,7 +110,7 @@ permalink: /Research/
 
   <ul class="paper-list">
     <li class="paper-card">
-      <p class="paper-title"><b>Off-policy Distributional Reinforcement Learning, M. Mohammadi</b>b>, Q. Zheng, and R.Zhu</p>
+      <p class="paper-title"><b>Off-policy Distributional Reinforcement Learning, M. Mohammadi</b>, Q. Zheng, and R.Zhu</p>
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
@@ -119,7 +119,7 @@ permalink: /Research/
       </details>
     </li>
     <li class="paper-card">
-      <p class="paper-title"><b>A Wasserstein-Equivalent Metric for the Space of Probability Distributions</b>b>, M. Mohammadi</p>
+      <p class="paper-title"><b>A Wasserstein-Equivalent Metric for the Space of Probability Distributions</b>, M. Mohammadi</p>
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
