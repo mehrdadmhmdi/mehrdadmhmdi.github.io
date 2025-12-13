@@ -20,9 +20,15 @@ permalink: /Research/
     border-radius:999px;
     text-decoration:none;
     font-size:.92rem;
+    color: rgba(255,255,255,.92);          /* text color */
+    background: rgba(255,255,255,.04);     /* optional */
+    border-color: rgba(255,255,255,.18);   /* optional */
   }
-  .research-nav a:hover{border-color:rgba(0,0,0,.35)}
-
+.research-nav a:hover{
+  color: #fff;
+  border-color: rgba(255,255,255,.35);
+}
+.research-nav a:visited{ color: rgba(255,255,255,.92); } /* avoid purple */
   /* Section titles */
   .research-section{margin:1.25rem 0}
   .research-section h1,
@@ -71,11 +77,13 @@ permalink: /Research/
   details.paper-details[open] > summary{border-color:rgba(0,0,0,.35)}
   .paper-abstract{
     margin:.55rem 0 0 0;
+    font-size: 0.95rem;   /* change this */
+    line-height: 1.55;
     padding:.65rem .5rem;
     border-left:3px solid rgba(0,0,0,.18);
     background:rgba(0,0,0,.03);
     border-radius:10px;
-    line-height:1.5;
+    font-style: normal !important
   }
 
   /* Small screens */
@@ -90,9 +98,7 @@ permalink: /Research/
 
 <nav class="research-nav">
   <a href="#work-in-progress">Work in Progress</a>
-  <a href="#publications">Publications</a>
   <a href="#theory-and-methods">Theory and Methods</a>
-  <a href="#interdisciplinary-collaborations">Interdisciplinary Collaborations</a>
   <a href="#medical-sciences">Medical Sciences</a>
   <a href="#business-analytics">Business Analytics</a>
 </nav>
