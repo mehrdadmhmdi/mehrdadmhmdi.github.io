@@ -9,7 +9,7 @@ permalink: /Research/
   .research-page{max-width:980px;margin:0 auto;padding:0.5rem 0;}
 
   /* Top tagline */
-  .research-tagline{margin:0 0 0.45rem 0;font-size:0.75rem;line-height:1.5}
+  .research-tagline{margin:0 0 0.45rem 0;font-size:0.85rem;line-height:1.5}
 
   /* Quick nav */
   .research-nav{display:flex;flex-wrap:wrap;gap:.5rem;margin:.25rem 0 1.25rem 0}
@@ -19,7 +19,7 @@ permalink: /Research/
     border:1px solid rgba(0,0,0,.15);
     border-radius:999px;
     text-decoration:none;
-    font-size:.85rem;
+    font-size:.75rem;
     color: rgba(255,95,5,.92);          /* text color */
     background: rgba(255,255,255,.04);     /* optional */
     border-color: rgba(255,255,255,.18);   /* optional */
@@ -48,7 +48,7 @@ permalink: /Research/
     background:rgba(0,0,0,.01);
     font-size:.8rem;
   }
-  .paper-title{margin:0;font-weight:500;line-height:1.35}
+  .paper-title{margin:0;font-size:.9rem;font-weight:500;line-height:1.35}
   .paper-meta{margin:.25rem 0 0 0;opacity:.85;line-height:1.35}
   .paper-links{margin:.55rem 0 0 0;display:flex;flex-wrap:wrap;gap:.45rem}
   .pill{
@@ -97,8 +97,8 @@ permalink: /Research/
 <div class="research-page">
 
 <p class="research-tagline"><strong>Statistical Learning, Reinforcement Learning, Non-parametric Statistics, Machine Learning and Statistics Applications</strong></p>
-<a href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-<a href="https://github.com/mehrdadmhmdi" target="_blank" rel="noopener">GitHub</a>
+<a href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+<a href="https://github.com/mehrdadmhmdi" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
 <nav class="research-nav">
   <a href="#work-in-progress">Work in Progress</a>
   <a href="#theory-and-methods">Theory and Methods</a>
