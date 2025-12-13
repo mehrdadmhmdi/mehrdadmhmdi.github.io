@@ -9,7 +9,7 @@ permalink: /Research/
   .research-page{max-width:980px;margin:0 auto;padding:0.5rem 0;}
 
   /* Top tagline */
-  .research-tagline{margin:0 0 0.75rem 0;font-size:1.02rem;line-height:1.5}
+  .research-tagline{margin:0 0 0.45rem 0;font-size:1.02rem;line-height:1.5}
 
   /* Quick nav */
   .research-nav{display:flex;flex-wrap:wrap;gap:.5rem;margin:.25rem 0 1.25rem 0}
@@ -33,9 +33,9 @@ permalink: /Research/
   .research-divider{margin:1.25rem 0;border:none;border-top:1px solid rgba(0,0,0,.15)}
 
   /* Lists -> cards */
-  .paper-list{list-style:none;padding:0;margin:0;display:grid;gap:.75rem}
+  .paper-list{list-style:none;padding:0;margin:0;display:grid;gap:.45rem}
   .paper-card{
-    border:1px solid rgba(0,0,0,.15);
+    border:1px solid rgba(255, 255, 255, 1);
     border-radius:14px;
     padding:.85rem .9rem;
     background:rgba(0,0,0,.01);
@@ -71,7 +71,7 @@ permalink: /Research/
   details.paper-details[open] > summary{border-color:rgba(0,0,0,.35)}
   .paper-abstract{
     margin:.55rem 0 0 0;
-    padding:.65rem .7rem;
+    padding:.65rem .5rem;
     border-left:3px solid rgba(0,0,0,.18);
     background:rgba(0,0,0,.03);
     border-radius:10px;
