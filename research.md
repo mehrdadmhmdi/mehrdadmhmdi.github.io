@@ -89,7 +89,7 @@ permalink: /Research/
   }
 
   /* icons */
-  .icon-link{display:inline-flex;align-items:center;gap:.4rem;margin-left:1.1rem;}
+  .icon-link + .icon-link{display:inline-flex;align-items:center;gap:.4rem;margin-left:1.1rem;}
   .icon{width:1em;height:1em;vertical-align:-.12em}
 
   /* Small screens */
