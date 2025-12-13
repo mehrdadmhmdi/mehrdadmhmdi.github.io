@@ -111,7 +111,7 @@ permalink: /Research/
    href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en"
    target="_blank" rel="noopener">
     <svg class="icon" aria-hidden="true">
-      <use href="{{ '/assets/fontawesome/google-scholar.svg'  | relative_url }}"></use>
+      <use href="{{  '/assets/fontawesome/icons.svg#google-scholar'   | relative_url }}"></use>
     </svg>
   Google Scholar
 </a>
