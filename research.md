@@ -105,7 +105,7 @@ permalink: /Research/
 </nav>
 
 <section id="work-in-progress" class="research-section">
-  <h1>Work in Progress</h1>
+  <h1>Work in Progress/Review</h1>
 
   <ul class="paper-list">
     <li class="paper-card">
