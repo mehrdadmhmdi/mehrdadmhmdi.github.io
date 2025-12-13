@@ -100,8 +100,8 @@ permalink: /Research/
 <nav class="research-nav">
   <a href="#work-in-progress">Work in Progress</a>
   <a href="#theory-and-methods">Theory and Methods</a>
-  <a href="#medical-sciences">Medical Sciences</a>
-  <a href="#business-analytics">Business Analytics</a>
+  <a href="#medical-sciences">Medical Science Collaborations</a>
+  <a href="#business-analytics">Business Analytic Collaborations</a>
 </nav>
 
 <section id="work-in-progress" class="research-section">
