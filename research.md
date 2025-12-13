@@ -107,7 +107,15 @@ permalink: /Research/
   </svg>
   GitHub
 </a>
-<a href="https://github.com/mehrdadmhmdi" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+<a class="icon-link"
+   href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en"
+   target="_blank" rel="noopener">
+  <img class="icon-img"
+       src="{{ '/assets/fontawesome/google-scholar.svg' | relative_url }}"
+       aria-hidden="true" alt="">
+  Google Scholar
+</a>
+
 <nav class="research-nav">
   <a href="#work-in-progress">Work in Progress</a>
   <a href="#theory-and-methods">Theory and Methods</a>
