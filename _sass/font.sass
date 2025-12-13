@@ -1,13 +1,14 @@
-@import url("https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css")
+@import url("https://cdn.jsdelivr.net/gh/vsalvino/computer-modern@main/fonts/serif.css")
 
-$cm-serif: "Computer Modern Serif", serif
-$cm-mono: "Computer Modern Typewriter", monospace
+$cmr: "Computer Modern Serif", serif
 
-html, body
-  font-family: $cm-serif
+// Force Roman everywhere (including buttons, inputs)
+html, body, button, input, textarea, select
+  font-family: $cmr !important
+  font-style: normal
+  font-weight: 400
 
-h1, h2, h3, h4, h5, h6
-  font-family: $cm-serif
-
-code, pre, kbd, samp
-  font-family: $cm-mono
+h1, h2, h3, h4, h5, h6, header, header a, .title
+  font-family: $cmr !important
+  font-style: normal
+  font-weight: 700
