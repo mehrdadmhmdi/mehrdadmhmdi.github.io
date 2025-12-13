@@ -9,7 +9,7 @@ permalink: /Research/
   .research-page{max-width:980px;margin:0 auto;padding:0.5rem 0;}
 
   /* Top tagline */
-  .research-tagline{margin:0 0 0.45rem 0;font-size:0.8rem;line-height:1.5}
+  .research-tagline{margin:0 0 0.45rem 0;font-size:0.75rem;line-height:1.5}
 
   /* Quick nav */
   .research-nav{display:flex;flex-wrap:wrap;gap:.5rem;margin:.25rem 0 1.25rem 0}
@@ -27,6 +27,7 @@ permalink: /Research/
 .research-nav a:hover{
   color: #fff;
   border-color: rgba(255,255,255,.35);
+  border:1.5px;
 }
 .research-nav a:visited{ color: rgba(255,95,5,.92); } /* avoid purple */
   /* Section titles */
@@ -72,7 +73,7 @@ permalink: /Research/
     border:1px solid rgba(0,0,0,.18);
     border-radius:10px;
     user-select:none;
-    font-size:.85rem;
+    font-size:.95rem;
   }
   details.paper-details > summary::-webkit-details-marker{display:none}
   details.paper-details[open] > summary{border-color:rgba(0,0,0,.35)}
@@ -96,14 +97,14 @@ permalink: /Research/
 <div class="research-page">
 
 <p class="research-tagline"><strong>Statistical Learning, Reinforcement Learning, Non-parametric Statistics, Machine Learning and Statistics Applications</strong></p>
-
+<a href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+<a href="https://github.com/mehrdadmhmdi" target="_blank" rel="noopener">GitHub</a>
 <nav class="research-nav">
   <a href="#work-in-progress">Work in Progress</a>
   <a href="#theory-and-methods">Theory and Methods</a>
   <a href="#medical-sciences">Medical Science Collaborations</a>
   <a href="#business-analytics">Business Analytic Collaborations</a>
 </nav>
-
 <section id="work-in-progress" class="research-section">
   <h1>Work in Progress/Review</h1>
 
@@ -117,7 +118,6 @@ permalink: /Research/
         </div>
       </details>
     </li>
-
     <li class="paper-card">
       <p class="paper-title">A Wasserstein-Equivalent Metric for the Space of Probability Distributions, M. Mohammadi</p>
       <details class="paper-details">
@@ -127,7 +127,6 @@ permalink: /Research/
         </div>
       </details>
     </li>
-
     <li class="paper-card">
       <p class="paper-title">Semiparametric Time to Event Analysis with Dating Errors, M. Mohammadi</p>
       <details class="paper-details">
@@ -163,7 +162,6 @@ permalink: /Research/
         <a class="pill" href="https://www.sciencedirect.com/science/article/pii/S0301562924002618" target="_blank">pdf</a>
       </div>
     </li>
-
     <li class="paper-card">
       <p class="paper-title">
         McFarlin, Barbara L., Michelle Villegas-Downs, Mehrdad Mohammadi, Aiguo Han, Douglas G. Simpson, and William D. O'Brien Jr.
@@ -174,7 +172,6 @@ permalink: /Research/
         <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S2589933323003920" target="_blank">pdf</a>
       </div>
     </li>
-
     <li class="paper-card">
       <p class="paper-title">
         McFarlin, Barbara L., Yuxuan Liu, Michelle Villegas-Downs, Mehrdad Mohammadi, Douglas G. Simpson, Aiguo Han, and William D. O'Brien Jr.
