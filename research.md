@@ -106,7 +106,7 @@ permalink: /Research/
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
-          <em>Add abstract here.</em>
+          <em>We propose an (offline) multi-dimensional distributional reinforcement learning framework (KE-DRL) that leverages Hilbert space mappings to estimate the kernel mean embedding of the multi-dimensional value distribution under a proposed target policy. In our setting the state-action are multi-dimensional and continuous. By mapping probability measures into a reproducing kernel Hilbert space via kernel mean embeddings, our method replaces Wasserstein metrics with a integral probability metric. This enables efficient estimation in multi-dimensional state–action spaces and reward settings, where direct computation of Wasserstein distances is computationally challenging. Theoretically, we establish contraction properties of the distributional Bellman operator under our proposed metric involving the Matérn family of kernels and provide uniform convergence guarantees. Simulations and empirical results demonstrate robust off-policy evaluation and recovery of kernel mean embedding under mild assumptions, namely, Lipschitz continuity and boundedness for the kernels, highlighting the potential of our embedding-based approaches in complex, real-world decision-making scenarios and risk evaluations.</em>
         </div>
       </details>
     </li>
@@ -116,13 +116,13 @@ permalink: /Research/
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
-          <em>Add abstract here.</em>
+          <em>Viewing the space of probability measures on $\mathcal{X}$ as a metric space endowed with a Wasserstein distance, we speak of a Wasserstein Space. The Wasserstein distance suffers from high computational complexity, leaving numerous virtually intriguing problems outside of the compass of available algorithms. In this paper, we introduce Toscani–Fourier distance $T_{s,p}$ \textemdash{} a new metric on a dense subspace of probability measures with $p$-finite moments \textemdash{} along with the topological properties of the space induced by this metric, such as convergence, completeness, etc as well as the analysis of its behavior in a high dimensional space. Under suitable moment and tail decay conditions, we prove that this metric is equivalent to the $p-$Wasserstein distance on this subspace. The Toscani–Fourier distance $T_{s,p}$ offers significant computational advantages over Wasserstein distances on this suitably restricted, but dense, subspace. Its simplicity, parallelism, and sensitivity to distributional features make it a promising alternative for a wide range of applications where exact optimal transport is infeasible or unnecessary. Image processing demonstration shows empirical advantages and the equivalence with $p-$Wasserstein.</em>
         </div>
       </details>
     </li>
 
     <li class="paper-card">
-      <p class="paper-title">A SIMEX corrected time to event Distribution Estimation with Measurement Errors, M. Mohammadi</p>
+      <p class="paper-title">Semiparametric Time to Event Analysis with Dating Errors, M. Mohammadi</p>
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
