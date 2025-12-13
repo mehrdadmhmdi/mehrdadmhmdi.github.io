@@ -110,9 +110,9 @@ permalink: /Research/
 <a class="icon-link"
    href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en"
    target="_blank" rel="noopener">
-  <img class="icon-img"
-       src="{{ '/assets/fontawesome/google-scholar.svg' | relative_url }}"
-       aria-hidden="true" alt="">
+    <svg class="icon" aria-hidden="true">
+      <use href="{{ '/assets/fontawesome/google-scholar.svg'  | relative_url }}"></use>
+    </svg>
   Google Scholar
 </a>
 
