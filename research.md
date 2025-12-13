@@ -35,12 +35,12 @@ permalink: /Research/
   /* Lists -> cards */
   .paper-list{list-style:none;padding:0;margin:0;display:grid;gap:.45rem}
   .paper-card{
-    border:1px solid rgba(255, 255, 255, 1);
-    border-radius:14px;
+    border:0.8px solid rgba(0,0,0,.15);
+    border-radius:11px;
     padding:.85rem .9rem;
     background:rgba(0,0,0,.01);
   }
-  .paper-title{margin:0;font-weight:600;line-height:1.35}
+  .paper-title{margin:0;font-weight:400;line-height:1.35}
   .paper-meta{margin:.25rem 0 0 0;opacity:.85;line-height:1.35}
   .paper-links{margin:.55rem 0 0 0;display:flex;flex-wrap:wrap;gap:.45rem}
   .pill{
