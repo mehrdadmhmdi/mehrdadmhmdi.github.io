@@ -146,7 +146,7 @@ permalink: /Research/
   <h1>Publications</h1>
 
   <h2 id="theory-and-methods">Theory and Methods</h2>
-  <p class="paper-meta"><em>(Add items here.)</em></p>
+  <p class="paper-meta"><em>()</em></p>
 
   <h2 id="interdisciplinary-collaborations">Interdisciplinary Collaborations</h2>
 
@@ -188,7 +188,7 @@ permalink: /Research/
   </ul>
 
   <h3 id="business-analytics">Business Analytics</h3>
-  <p class="paper-meta"><em>(Add items here.)</em></p>
+  <p class="paper-meta"></p>
 </section>
 
 </div>
