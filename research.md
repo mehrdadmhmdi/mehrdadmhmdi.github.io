@@ -9,7 +9,7 @@ permalink: /Research/
   .research-page{max-width:980px;margin:0 auto;padding:0.5rem 0;}
 
   /* Top tagline */
-  .research-tagline{margin:0 0 0.45rem 0;font-size:1.02rem;line-height:1.5}
+  .research-tagline{margin:0 0 0.45rem 0;font-size:0.8rem;line-height:1.5}
 
   /* Quick nav */
   .research-nav{display:flex;flex-wrap:wrap;gap:.5rem;margin:.25rem 0 1.25rem 0}
@@ -19,8 +19,8 @@ permalink: /Research/
     border:1px solid rgba(0,0,0,.15);
     border-radius:999px;
     text-decoration:none;
-    font-size:.92rem;
-    color: rgba(255,255,255,.92);          /* text color */
+    font-size:.75rem;
+    color: rgba(255,95,5,.92);          /* text color */
     background: rgba(255,255,255,.04);     /* optional */
     border-color: rgba(255,255,255,.18);   /* optional */
   }
@@ -28,7 +28,7 @@ permalink: /Research/
   color: #fff;
   border-color: rgba(255,255,255,.35);
 }
-.research-nav a:visited{ color: rgba(255,255,255,.92); } /* avoid purple */
+.research-nav a:visited{ color: rgba(255,95,5,.92); } /* avoid purple */
   /* Section titles */
   .research-section{margin:1.25rem 0}
   .research-section h1,
@@ -45,6 +45,7 @@ permalink: /Research/
     border-radius:11px;
     padding:.85rem .9rem;
     background:rgba(0,0,0,.01);
+    font-size:.7rem;
   }
   .paper-title{margin:0;font-weight:400;line-height:1.35}
   .paper-meta{margin:.25rem 0 0 0;opacity:.85;line-height:1.35}
@@ -55,7 +56,7 @@ permalink: /Research/
     border:1px solid rgba(0,0,0,.18);
     border-radius:999px;
     text-decoration:none;
-    font-size:.9rem;
+    font-size:.7rem;
   }
   .pill:hover{border-color:rgba(0,0,0,.35)}
 
@@ -71,19 +72,19 @@ permalink: /Research/
     border:1px solid rgba(0,0,0,.18);
     border-radius:10px;
     user-select:none;
-    font-size:.92rem;
+    font-size:.75rem;
   }
   details.paper-details > summary::-webkit-details-marker{display:none}
   details.paper-details[open] > summary{border-color:rgba(0,0,0,.35)}
   .paper-abstract{
     margin:.55rem 0 0 0;
-    font-size: 0.95rem;   /* change this */
-    line-height: 1.55;
+    font-size: 0.75rem;   /* change this */
+    line-height: 1.3;
     padding:.65rem .5rem;
     border-left:3px solid rgba(0,0,0,.18);
     background:rgba(0,0,0,.03);
     border-radius:10px;
-    font-style: normal !important
+    font-style: normal
   }
 
   /* Small screens */
@@ -112,7 +113,7 @@ permalink: /Research/
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
-          <em>We propose an (offline) multi-dimensional distributional reinforcement learning framework (KE-DRL) that leverages Hilbert space mappings to estimate the kernel mean embedding of the multi-dimensional value distribution under a proposed target policy. In our setting the state-action are multi-dimensional and continuous. By mapping probability measures into a reproducing kernel Hilbert space via kernel mean embeddings, our method replaces Wasserstein metrics with a integral probability metric. This enables efficient estimation in multi-dimensional state–action spaces and reward settings, where direct computation of Wasserstein distances is computationally challenging. Theoretically, we establish contraction properties of the distributional Bellman operator under our proposed metric involving the Matérn family of kernels and provide uniform convergence guarantees. Simulations and empirical results demonstrate robust off-policy evaluation and recovery of kernel mean embedding under mild assumptions, namely, Lipschitz continuity and boundedness for the kernels, highlighting the potential of our embedding-based approaches in complex, real-world decision-making scenarios and risk evaluations.</em>
+          We propose an (offline) multi-dimensional distributional reinforcement learning framework (KE-DRL) that leverages Hilbert space mappings to estimate the kernel mean embedding of the multi-dimensional value distribution under a proposed target policy. In our setting the state-action are multi-dimensional and continuous. By mapping probability measures into a reproducing kernel Hilbert space via kernel mean embeddings, our method replaces Wasserstein metrics with a integral probability metric. This enables efficient estimation in multi-dimensional state–action spaces and reward settings, where direct computation of Wasserstein distances is computationally challenging. Theoretically, we establish contraction properties of the distributional Bellman operator under our proposed metric involving the Matérn family of kernels and provide uniform convergence guarantees. Simulations and empirical results demonstrate robust off-policy evaluation and recovery of kernel mean embedding under mild assumptions, namely, Lipschitz continuity and boundedness for the kernels, highlighting the potential of our embedding-based approaches in complex, real-world decision-making scenarios and risk evaluations.
         </div>
       </details>
     </li>
@@ -122,7 +123,7 @@ permalink: /Research/
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
-          <em>Viewing the space of probability measures on $\mathcal{X}$ as a metric space endowed with a Wasserstein distance, we speak of a Wasserstein Space. The Wasserstein distance suffers from high computational complexity, leaving numerous virtually intriguing problems outside of the compass of available algorithms. In this paper, we introduce Toscani–Fourier distance $T_{s,p}$ \textemdash{} a new metric on a dense subspace of probability measures with $p$-finite moments \textemdash{} along with the topological properties of the space induced by this metric, such as convergence, completeness, etc as well as the analysis of its behavior in a high dimensional space. Under suitable moment and tail decay conditions, we prove that this metric is equivalent to the $p-$Wasserstein distance on this subspace. The Toscani–Fourier distance $T_{s,p}$ offers significant computational advantages over Wasserstein distances on this suitably restricted, but dense, subspace. Its simplicity, parallelism, and sensitivity to distributional features make it a promising alternative for a wide range of applications where exact optimal transport is infeasible or unnecessary. Image processing demonstration shows empirical advantages and the equivalence with $p-$Wasserstein.</em>
+          Viewing the space of probability measures on $$\mathcal{X}$$ as a metric space endowed with a Wasserstein distance, we speak of a Wasserstein Space. The Wasserstein distance suffers from high computational complexity, leaving numerous virtually intriguing problems outside of the compass of available algorithms. In this paper, we introduce Toscani–Fourier distance $$T_{s,p}$$ a new metric on a dense subspace of probability measures with p-finite moments along with the topological properties of the space induced by this metric, such as convergence, completeness, etc as well as the analysis of its behavior in a high dimensional space. Under suitable moment and tail decay conditions, we prove that this metric is equivalent to the $p-$Wasserstein distance on this subspace. The Toscani–Fourier distance $T_{s,p}$ offers significant computational advantages over Wasserstein distances on this suitably restricted, but dense, subspace. Its simplicity, parallelism, and sensitivity to distributional features make it a promising alternative for a wide range of applications where exact optimal transport is infeasible or unnecessary. Image processing demonstration shows empirical advantages and the equivalence with $p-$Wasserstein.
         </div>
       </details>
     </li>
@@ -132,7 +133,7 @@ permalink: /Research/
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
-          <em>Add abstract here.</em>
+          Add abstract here.
         </div>
       </details>
     </li>
