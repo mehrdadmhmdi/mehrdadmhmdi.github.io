@@ -1,11 +1,13 @@
-@font-face
-  font-family: 'PT Sans'
-  src: local('PT Sans'), local('PTSans-Regular'), url('../fonts/PTSans-Regular.woff') format('woff')
-  font-weight: normal
-  font-style: normal
+@import url("https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css")
 
-@font-face
-  font-family: 'PT Sans'
-  src: local('PT Sans Bold'), local('PTSans-Bold'), url('../fonts/PTSans-Bold.woff') format('woff')
-  font-weight: bold
-  font-style: normal
+$cm-serif: "Computer Modern Serif", serif
+$cm-mono: "Computer Modern Typewriter", monospace
+
+html, body
+  font-family: $cm-serif
+
+h1, h2, h3, h4, h5, h6
+  font-family: $cm-serif
+
+code, pre, kbd, samp
+  font-family: $cm-mono
