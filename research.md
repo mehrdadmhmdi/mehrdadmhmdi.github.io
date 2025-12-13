@@ -146,7 +146,7 @@ permalink: /Research/
 
   <h2 id="theory-and-methods">Theory and Methods</h2>
   <p class="paper-meta"><em>()</em></p>
-
+<hr class="research-divider" />
   <h2 id="interdisciplinary-collaborations">Interdisciplinary Collaborations</h2>
 
   <h3 id="medical-sciences">Medical Sciences</h3>
