@@ -88,6 +88,10 @@ permalink: /Research/
     font-style: normal
   }
 
+  /* icons */
+  .icon-link{display:inline-flex;align-items:center;gap:.4rem}
+  .icon{width:1em;height:1em;vertical-align:-.12em}
+
   /* Small screens */
   @media (max-width:600px){
     .paper-card{padding:.8rem}
@@ -97,7 +101,12 @@ permalink: /Research/
 <div class="research-page">
 
 <p class="research-tagline"><strong>Statistical Learning, Reinforcement Learning, Non-parametric Statistics, Machine Learning and Statistics Applications</strong></p>
-<a href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+<a class="icon-link" href="https://github.com/mehrdadmhmdi" target="_blank" rel="noopener">
+  <svg class="icon" aria-hidden="true">
+    <use href="{{ '/assets/fontawesome/icons.svg#github' | relative_url }}"></use>
+  </svg>
+  GitHub
+</a>
 <a href="https://github.com/mehrdadmhmdi" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
 <nav class="research-nav">
   <a href="#work-in-progress">Work in Progress</a>
