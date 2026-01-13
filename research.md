@@ -127,8 +127,7 @@ permalink: /Research/
 
   <ul class="paper-list">
     <li class="paper-card">
-      <p class="paper-title"><b>Off-policy Distributional Reinforcement Learning</p>
-       <p M. Mohammadi</b>, Q. Zheng, and R.Zhu</p>
+      <p class="paper-title"><b>Off-policy Distributional Reinforcement Learning </b><br> M. Mohammadi, Q. Zheng, and R.Zhu</p>
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
@@ -137,8 +136,7 @@ permalink: /Research/
       </details>
     </li>
     <li class="paper-card">
-      <p class="paper-title"><b>A Wasserstein-Equivalent Metric for the Space of Probability Distributions</b></p>
-       <p M. Mohammadi</p>
+      <p class="paper-title"><b>A Wasserstein-Equivalent Metric for the Space of Probability Distributions</b><br>M. Mohammadi</p>
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
@@ -147,8 +145,7 @@ permalink: /Research/
       </details>
     </li>
     <li class="paper-card">
-      <p class="paper-title"><b>Semiparametric Time to Event Analysis with Dating Errors</b></p>
-       <p M. Mohammadi, Simpson, D. G</p>
+      <p class="paper-title"><b>Semiparametric Time to Event Analysis with Dating Errors</b><br> M. Mohammadi, Simpson, D. G</p>
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
