@@ -69,6 +69,7 @@ permalink: /Software/
     display:inline-flex;
     align-items:center;
     gap:.45rem;
+    color: rgba(255,95,5,.92);
     padding:.28rem .6rem;
     border:1px solid rgba(0,0,0,.18);
     border-radius:10px;
@@ -107,17 +108,25 @@ permalink: /Software/
   GitHub
 </a>
 
-<section id="Software/Packages" class="software-section">
+<section id="software-packages" class="software-section">
   <ul class="software-list">
     <li class="software-card">
-      <p class="software-title"><b>Kernel Embedding Distributional Reinforcement Learning (KE-DRL) </b>
+      <p class="software-title"><b>Kernel Embedding Distributional Reinforcement Learning (KE-DRL)</b></p>
+
       <details class="software-details">
         <summary>Info</summary>
         <div class="software-info">
-          <b>Offline Multi-Dimensional Distributional RL - RKHS Mean Embedding Estimation</b>
-            <b>Works on Linux/macOS/Windows (requires GPU, Python ≥3.9, git, and pip).</b>
+          <b>Offline Multi-Dimensional Distributional RL - RKHS Mean Embedding Estimation<br>
+          Works on Linux/macOS/Windows (requires GPU, Python ≥3.9, git, and pip).</b>
+
           <div class="software-links">
-        <a class="pill" href="https://github.com/mehrdadmhmdi/ke-drl" target="_blank">KE-DRL Repository</a>
-      </div>
+            <a class="pill" href="https://github.com/mehrdadmhmdi/ke-drl" target="_blank" rel="noopener noreferrer">
+              KE-DRL Repository
+            </a>
+          </div>
         </div>
       </details>
+    </li>
+  </ul>
+</section>
+
