@@ -117,13 +117,13 @@ permalink: /Research/
 </a>
 
 <nav class="research-nav">
-  <a href="#work-in-progress">Work in Progress</a>
+  <a href="#work-in-progress">Under Review</a>
   <a href="#theory-and-methods">Theory and Methods</a>
   <a href="#medical-sciences">Medical Science Collaborations</a>
   <a href="#business-analytics">Business Analytic Collaborations</a>
 </nav>
 <section id="work-in-progress" class="research-section">
-  <h1>Work in Progress/Review</h1>
+  <h1>Under Review</h1>
 
   <ul class="paper-list">
     <li class="paper-card">
