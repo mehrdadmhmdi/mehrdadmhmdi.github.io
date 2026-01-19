@@ -149,7 +149,7 @@ permalink: /Research/
       <details class="paper-details">
         <summary>Abstract</summary>
         <div class="paper-abstract">
-          Add abstract here.
+          Many biomedical survival studies rely on a clinically dated time scale (e.g., last menstrual period or early ultrasound), yet subjects’ true biological time is shifted by an unknown, subject-specific origin error. We study longitudinal biomarkers and right-censored event times under a common additive shift model in which all observed visit times for a subject are translated by the same unknown amount, inducing systematic misalignment across individuals. Exploiting the fact that time increments and residual life from each visit are invariant to the shift, we develop a landmark-style survival framework that fits hazards on error-free residual times using dynamic covariates summarizing baseline risk, biomarker history, and visit-to-visit increments. To represent biomarker evolution without parametric dating-error assumptions, we estimate biomarker mechanisms nonparametrically via RKHS conditional mean embeddings, yielding flexible history-to-biomarker regression at each landmark. We establish what is identifiable under the common-shift structure alone—robust inference for latent residual-life distributions—and characterize additional conditions (injectivity/completeness of biomarker–age mapping) under which the latent biological clock and the conditional distribution of the latent terminal time are point-identified through a convolution decomposition. Simulations and a real-data application illustrate practical performance.
         </div>
       </details>
     </li>
