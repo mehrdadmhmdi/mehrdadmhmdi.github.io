@@ -112,7 +112,7 @@ permalink: /Software/
     <li class="software-card">
       <p class="software-title"><b>Kernel Embedding Distributional Reinforcement Learning (KE-DRL) </b>
       <details class="software-details">
-        <summary>info</summary>
+        <summary>Info</summary>
         <div class="software-info">
           <b>Offline Multi-Dimensional Distributional RL - RKHS Mean Embedding Estimation</b>
             <b>Works on Linux/macOS/Windows (requires GPU, Python ≥3.9, git, and pip).</b>
@@ -122,5 +122,6 @@ permalink: /Software/
         </div>
       </details>
     </li>
+  </ul>
 </section>
 </div>
