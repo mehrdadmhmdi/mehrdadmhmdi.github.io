@@ -176,7 +176,7 @@ permalink: /Research/
         <i> Ultrasound in Medicine &amp; Biology,</i>(2024)
       </p>
       <div class="paper-links">
-        <a class="pill" href="https://www.sciencedirect.com/science/article/pii/S0301562924002618" target="_blank">pdf</a>
+        <a class="pill" href="https://www.sciencedirect.com/science/article/pii/S0301562924002618" target="_blank">Manuscript</a>
       </div>
     </li>
     <li class="paper-card">
@@ -186,7 +186,7 @@ permalink: /Research/
         <i>American Journal of Obstetrics &amp; Gynecology MFM</i> 6, no. 5 (2024): 101250
       </p>
       <div class="paper-links">
-        <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S2589933323003920" target="_blank">pdf</a>
+        <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S2589933323003920" target="_blank">Manuscript</a>
       </div>
     </li>
     <li class="paper-card">
@@ -196,7 +196,7 @@ permalink: /Research/
         <i>Ultrasound in Medicine &amp; Biology,</i> 49, no. 5 (2023)
       </p>
       <div class="paper-links">
-        <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S0301562922006834" target="_blank">pdf</a>
+        <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S0301562922006834" target="_blank">Manuscript</a>
       </div>
     </li>
   </ul>
