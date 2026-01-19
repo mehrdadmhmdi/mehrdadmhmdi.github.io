@@ -121,7 +121,3 @@ permalink: /Software/
       </div>
         </div>
       </details>
-    </li>
-  </ul>
-</section>
-</div>
