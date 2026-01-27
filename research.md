@@ -167,7 +167,6 @@ permalink: /Research/
         </div>
       </details>
     </li>
-  </ul>
 <hr class="research-divider" />
   <h2 id="interdisciplinary-collaborations">Interdisciplinary Collaborations</h2>
 
