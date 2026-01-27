@@ -33,7 +33,7 @@ permalink: /Research/
   /* Section titles */
   .research-section{margin:1.25rem 0}
   .research-section h1,
-  .research-section h2,
+  .research-section h2{color: rgba(255,95,5,.92)},
   .research-section h3{margin:.3rem 0 .6rem 0}
 
   /* Divider */
@@ -127,15 +127,6 @@ permalink: /Research/
 
   <ul class="paper-list">
     <li class="paper-card">
-      <p class="paper-title"><b>Off-policy Distributional Reinforcement Learning </b><br> M. Mohammadi, Q. Zheng, and R.Zhu</p>
-      <details class="paper-details">
-        <summary>Abstract</summary>
-        <div class="paper-abstract">
-          We propose an (offline) multi-dimensional distributional reinforcement learning framework (KE-DRL) that leverages Hilbert space mappings to estimate the kernel mean embedding of the multi-dimensional value distribution under a proposed target policy. In our setting the state-action are multi-dimensional and continuous. By mapping probability measures into a reproducing kernel Hilbert space via kernel mean embeddings, our method replaces Wasserstein metrics with a integral probability metric. This enables efficient estimation in multi-dimensional state–action spaces and reward settings, where direct computation of Wasserstein distances is computationally challenging. Theoretically, we establish contraction properties of the distributional Bellman operator under our proposed metric involving the Matérn family of kernels and provide uniform convergence guarantees. Simulations and empirical results demonstrate robust off-policy evaluation and recovery of kernel mean embedding under mild assumptions, namely, Lipschitz continuity and boundedness for the kernels, highlighting the potential of our embedding-based approaches in complex, real-world decision-making scenarios and risk evaluations.
-        </div>
-      </details>
-    </li>
-    <li class="paper-card">
       <p class="paper-title"><b>A Wasserstein-Equivalent Metric for the Space of Probability Distributions</b><br>M. Mohammadi</p>
       <details class="paper-details">
         <summary>Abstract</summary>
@@ -162,7 +153,20 @@ permalink: /Research/
   <h1>Publications</h1>
 
   <h2 id="theory-and-methods">Theory and Methods</h2>
-  <p class="paper-meta"><em>()</em></p>
+  <p class="paper-meta">
+        <li class="paper-card">
+      <p class="paper-title"><b>Off-policy Distributional Reinforcement Learning </b><br> M. Mohammadi, Q. Zheng, and R.Zhu</p>
+      <details class="paper-details">
+        <summary>Abstract</summary>
+        <div class="paper-abstract">
+          We propose an (offline) multi-dimensional distributional reinforcement learning framework (KE-DRL) that leverages Hilbert space mappings to estimate the kernel mean embedding of the multi-dimensional value distribution under a proposed target policy. In our setting the state-action are multi-dimensional and continuous. By mapping probability measures into a reproducing kernel Hilbert space via kernel mean embeddings, our method replaces Wasserstein metrics with a integral probability metric. This enables efficient estimation in multi-dimensional state–action spaces and reward settings, where direct computation of Wasserstein distances is computationally challenging. Theoretically, we establish contraction properties of the distributional Bellman operator under our proposed metric involving the Matérn family of kernels and provide uniform convergence guarantees. Simulations and empirical results demonstrate robust off-policy evaluation and recovery of kernel mean embedding under mild assumptions, namely, Lipschitz continuity and boundedness for the kernels, highlighting the potential of our embedding-based approaches in complex, real-world decision-making scenarios and risk evaluations.
+        </div>
+        <div class="paper-links">
+        <a class="pill" href="https://mehrdadmhmdi.github.io/Research/" target="_blank">Manuscript</a>
+      </div>
+      </details>
+    </li>
+  </p>
 <hr class="research-divider" />
   <h2 id="interdisciplinary-collaborations">Interdisciplinary Collaborations</h2>
 
