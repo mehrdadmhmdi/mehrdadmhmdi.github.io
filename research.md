@@ -60,6 +60,15 @@ permalink: /Research/
     font-size:.9rem;
   }
   .pill:hover{border:1.5px solid rgba(0,0,0,.35)}
+  
+  ol.bibliography{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:grid;
+  gap:.45rem;
+}
+ol.bibliography > li{ margin:0; }
 
   /* Abstract button (details/summary) */
   details.paper-details{margin-top:.55rem}
