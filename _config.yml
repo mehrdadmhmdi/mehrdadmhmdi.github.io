@@ -15,7 +15,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 # Menu
 navigation:
-  - {title: "Home", url: "mehrdadmhmdi.github.io", icon: home}
+  - {title: "Home", url: "/"}
   - {title: "News", file: "news.md"}
   - {title: "CV", file: "CV.md"}
   - {title: "Research", file: "research.md"}
