@@ -72,7 +72,7 @@ permalink: /Research/
     background: rgba(255,255,255,.04);
   }
   .pill:hover{border-color:rgba(255,255,255,.35)}
-  .pill:visited{color: rgba(255,95,5,.92);}
+  .pill:visited{color: rgba(255,255,255,0.9);}
 
   details.paper-details{display:inline-block;margin:0;}
   details.paper-details > summary::-webkit-details-marker{display:none}
