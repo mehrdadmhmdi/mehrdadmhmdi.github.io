@@ -137,14 +137,14 @@ permalink: /Research/
   <h1>Publications</h1>
 
   <h3 id="theory-and-methods">Theory and Methods</h3>
-  {% bibliography -f publications -q @*[topic=theory-and-methods && pubstatus!=under-review] -T pub_card %}
+  {% bibliography -f publications -q @*[topic=theory-and-methods && status!=under-review] -T pub_card %}
 
   <h3 id="interdisciplinary-research">Interdisciplinary Research</h3>
 
   <h4 id="medical-sciences">Medical Sciences</h4>
-  {% bibliography -f publications -q @*[topic=medical-sciences && pubstatus!=under-review] -T pub_card %}
+  {% bibliography -f publications -q @*[topic=medical-sciences && status!=under-review] -T pub_card %}
 
   <h4 id="business-analytics">Business Analytics</h4>
-  {% bibliography -f publications -q @*[topic=business-analytics && pubstatus!=under-review] -T pub_card %}
+  {% bibliography -f publications -q @*[topic=business-analytics && status!=under-review] -T pub_card %}
 </section>
 </div>
