@@ -40,7 +40,6 @@ comments:
 plugins:
   - jekyll-feed
   - jekyll-category-pages
-  - jekyll-tagging
   - jekyll-scholar
 
 scholar:
