@@ -50,5 +50,5 @@ scholar:
   locale: en
   sort_by: year
   order: descending
-  bibliography_template: pub_card
+  bibliography_template: bib
 
