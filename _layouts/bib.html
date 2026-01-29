@@ -1,0 +1,17 @@
+---
+---
+<li class="paper-card" id="{{ entry.key }}">
+  <p class="paper-title"><b>{{ entry.title }}</b><br>{{ reference }}</p>
+
+  {% if entry.abstract %}
+  <details class="paper-details">
+    <summary>Abstract</summary>
+    <div class="paper-abstract">{{ entry.abstract }}</div>
+  </details>
+  {% endif %}
+
+  <div class="paper-links">
+    {% if entry.url %}<a class="pill" href="{{ entry.url }}" target="_blank" rel="noopener">Manuscript</a>{% endif %}
+    {% if entry.doi %}<a class="pill" href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+  </div>
+</li>
