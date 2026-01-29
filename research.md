@@ -35,8 +35,8 @@ permalink: /Research/
   .research-section{margin:1.25rem 0}
   .research-section h1{ color: rgba(255,95,5,.92); }
   .research-section h2,
-  .research-section h3{ color: #9fc5ff; }   /* blue headings */
-  .research-section h3{margin:.3rem 0 .6rem 0;}
+  .research-section h3{ color:#7aa6ff; margin:.3rem 0 .6rem 0; }
+  .research-section h4{ color:rgba(255,255,255,.92); margin:.85rem 0 .45rem 0; font-weight:600; }
 
   /* Divider */
   .research-divider{margin:1.25rem 0;border:none;border-top:1px solid rgba(0,0,0,.15)}
