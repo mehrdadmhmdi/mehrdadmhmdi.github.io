@@ -20,20 +20,23 @@ permalink: /Research/
     border-radius:999px;
     text-decoration:none;
     font-size:.75rem;
-    color: rgba(255,95,5,.92);          /* text color */
-    background: rgba(255,255,255,.04);     /* optional */
-    border-color: rgba(255,255,255,.18);   /* optional */
+    color: rgba(255,95,5,.92);
+    background: rgba(255,255,255,.04);
+    border-color: rgba(255,255,255,.18);
   }
-.research-nav a:hover{
-  color: #fff;
-  border-color: rgba(255,255,255,.35);
-  border:1.5px;
-}
-.research-nav a:visited{ color: rgba(255,95,5,.92); } /* avoid purple */
+  .research-nav a:hover{
+    color: #fff;
+    border-color: rgba(255,255,255,.35);
+    border:1.5px;
+  }
+  .research-nav a:visited{ color: rgba(255,95,5,.92); }
+
   /* Section titles */
   .research-section{margin:1.25rem 0}
   .research-section h1,
-  .research-section h2{color: rgba(255,95,5,.92);},
+  .research-section h2 {
+    color: rgba(255,95,5,.92);
+  }
   .research-section h3{margin:.3rem 0 .6rem 0;}
 
   /* Divider */
@@ -41,6 +44,9 @@ permalink: /Research/
 
   /* Lists -> cards */
   .paper-list{list-style:none;padding:0;margin:0;display:grid;gap:.45rem}
+  ol.bibliography{list-style:none;padding:0;margin:0;display:grid;gap:.45rem;}
+  ol.bibliography > li{margin:0;}
+  
   .paper-card{
     border:0.8px solid rgba(0,0,0,.15);
     border-radius:11px;
@@ -61,8 +67,8 @@ permalink: /Research/
   }
   .pill:hover{border:1.5px solid rgba(0,0,0,.35)}
 
-  /* Abstract button (details/summary) */
-  details.paper-details{margin-top:.55rem}
+  /* Abstract button (details/summary) - INLINE */
+  details.paper-details{margin-top:.55rem; display:inline;}
   details.paper-details > summary{
     list-style:none;
     cursor:pointer;
@@ -79,13 +85,15 @@ permalink: /Research/
   details.paper-details[open] > summary{border-color:rgba(0,0,0,.35)}
   .paper-abstract{
     margin:.55rem 0 0 0;
-    font-size: 0.85rem;   /* change this */
+    font-size: 0.85rem;
     line-height: 1.3;
     padding:.65rem .5rem;
     border-left:3px solid rgba(0,0,0,.18);
     background:rgba(0,0,0,.03);
     border-radius:10px;
-    font-style: normal
+    font-style: normal;
+    display:block;
+    clear:both;
   }
 
   /* icons */
@@ -122,6 +130,7 @@ permalink: /Research/
   <a href="#medical-sciences">Medical Science Collaborations</a>
   <a href="#business-analytics">Business Analytic Collaborations</a>
 </nav>
+
 <section id="work-in-progress" class="research-section">
   <h1>Under Review</h1>
   {% bibliography -f publications -q @*[status=under-review] -T pub_card %}
