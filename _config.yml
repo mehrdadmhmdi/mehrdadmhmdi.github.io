@@ -39,7 +39,6 @@ comments:
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-category-pages
   - jekyll-scholar
 
 scholar:
