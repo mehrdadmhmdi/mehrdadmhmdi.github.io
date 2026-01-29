@@ -31,11 +31,6 @@ external:
   - {title: X, icon: x-twitter, url: "https://twitter.com/mehrdad_mhmd"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/mehrdadmohammadi/"}
 
-# Comments (optional)
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
 # Plugins
 plugins:
   - jekyll-feed
