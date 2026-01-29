@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Implicit Supervised Learning; Reinforcement Learning | Mehrdad Mohammadi</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Mehrdad Mohammadi">
+<meta name="generator" content="Jekyll v4.2.2">
+<link rel="canonical" href="/Implicit-Supervised-Learning/">
+
+<link rel="stylesheet" href="/assets/css/index.css">
+
+<link rel="stylesheet" href="/assets/css/classes.css">
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Mehrdad Mohammadi">
+
+<link rel="stylesheet" href="/assets/katex/katex.min.css">
+<script defer src="/assets/katex/katex.min.js"></script>
+<script defer src="/assets/katex/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body,{
+    delimiters:[
+      {left:'$$', right:'$$', display:true},
+      {left:'$',  right:'$',  display:false},
+      {left:'\\(', right:'\\)', display:false},
+      {left:'\\[', right:'\\]', display:true}
+    ],
+    throwOnError:false
+  });">
+</script>
+
+
+
+
+
+
+
+<header>
+  <a href="/" class="title">Mehrdad Mohammadi</a>
+  <nav><a aria-label="Home" href="/" ><span aria-hidden="true">Home</span></a><a aria-label="News" href="/news/" ><span aria-hidden="true">News</span></a><a aria-label="CV" href="/cv/" ><span aria-hidden="true">CV</span></a><a aria-label="Research" href="/Research/" ><span aria-hidden="true">Research</span></a><a aria-label="Software" href="/Software/" ><span aria-hidden="true">Software</span></a><a aria-label="Contact" href="/Contact/" ><span aria-hidden="true">Contact</span></a></nav>
+
+  <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
+</header>
+
+<article>
+  <header>
+  <h1><a href="/Implicit-Supervised-Learning/">Implicit Supervised Learning; Reinforcement Learning</a></h1><time datetime="2023-08-05T00:00:00+00:00">August 05, 2023</time>
+</header>
+
+  <p>How can (machine) agents learn from experience without a  teacher explicitly telling them what to do? Reinforcement learning is the area within (machine) learning that investigates how an agent can learn an optimal behavior by correlating a reward with its past actions. It draws from several disciplines, including behavioral psychology, economics, and operations research, to model the learning process. In this approach, the environment is typically modeled as a Markov decision process, where the agent receives immediate reward and state information but must learn how to choose actions that maximize its overall reward over time.\</p>
+
+<p>Supervised learning is the most common data analysis and has been extensively studied in the statistics community for a long time. Supervised learning is a sound approach, but collecting input-output paired data is often too expensive. Unsupervised learning, on the other hand, is inexpensive to perform, but it tends to be ad hoc. Reinforcement learning is placed between supervised learning and unsupervised learning, but we still want to learn the input-output relation behind the data. Instead of output data, reinforcement learning utilizes rewards, which evaluate the validity of predicted outputs. Giving implicit supervision such as rewards is usually much easier and less costly than giving explicit supervision. Various supervised and unsupervised learning techniques are also utilized in the framework of reinforcement learning.\</p>
+
+<p>To illustrate a reinforcement learning problem, consider a maze  where a robot must reach the goal without guidance on which direction to take. In this problem, states are positions in the maze, actions are possible directions, and transitions describe how states connect through actions. Rewards indicate the incomes or costs that the robot agent receives, and the goal is to find the policy that allows the robot agent to receive the maximum amount of rewards in the long run. To achieve this goal efficiently, dynamic programming can be used to obtain the (state-)value, which is the return as a function of the initial state. This method breaks down the complex optimization problem into simpler subproblems and solves them recursively, reusing solutions to reduce computation costs.\</p>
+
+<p>Let $Q$ expected utility or value \citep{sutton2018reinforcement}, Bellman’s equation  describes this value in terms of the expected reward and the expected outcome of the random transition $(x,a)\mapsto (X’,A’)$:
+\(Q(x,a)=\mathbb{E} R(x,a)+ \gamma \mathbb{E} Q(X',A')\)</p>
+
+<p>Let $Z$ the random return whose expectation is the value $Q$. This random return is described by a recursive equation, but one of a distributional nature. The distributional Bellman equation \citep{bellemare2017distributional} states that the distribution of $Z$ is characterized by the interaction of three random variables: the reward $R$, the next state-action $(X’,A’)$, and
+its random return $Z(X’,A’)$:
+\(Z(x,a)\overset{D}{=} R(x,a)+ \gamma Z(X',A')\)
+\cite{bellemare2017distributional} show that, for a fixed policy, the distributional Bellman operator is a contraction in a maximal form of the Wasserstein metric. However, the same operator is not a contraction in total variation, Kullback-Leibler divergence, or Kolmogorov distance.\</p>
+
+<p>Unlike ordinary RL that the optimality version of Bellman equation has a unique fixed point $Q^\ast$,the optimal value function, \citep{sutton2018reinforcement} corresponding to the set of optimal policies, an optimality analog of Distributional Bellman Equation does not have a unique fixed point. In fact, the distributional operator defined over return is not a contraction \citep{bellemare2017distributional}.\</p>
+
+<p>Existing distributional RL algorithms parameterize the policy return distribution in many different ways, including canonical return atoms \citep{bellemare2017distributional} , the expectiles \citep{rowland2019statistics}, the moments \citep{nguyen2021distributional}, and the quantiles \citep{dabney2018distributional,  yang2019fully, dabney2018implicit}.\</p>
+
+
+  
+</article>
+
+
+
+<footer>
+  <div>University of Illinois at Urbana-Champaign</div>
+  <nav><a aria-label="Mail" href="mailto:mehrdad3@illinois.edu" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a><a aria-label="google-scholar" href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#google-scholar"></use></svg></a><a aria-label="Github" href="https://github.com/mehrdadmhmdi" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#github"></use></svg></a><a aria-label="X" href="https://twitter.com/mehrdad_mhmd" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#x-twitter"></use></svg></a><a aria-label="Linkedin" href="https://www.linkedin.com/in/mehrdadmohammadi/" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#linkedin"></use></svg></a></nav>
+
+</footer>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
+</html>
