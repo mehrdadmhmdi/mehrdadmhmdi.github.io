@@ -33,8 +33,8 @@ permalink: /Research/
   /* Section titles */
   .research-section{margin:1.25rem 0}
   .research-section h1,
-  .research-section h2{color: rgba(255,95,5,.92)},
-  .research-section h3{margin:.3rem 0 .6rem 0}
+  .research-section h2{color: rgba(255,95,5,.92);},
+  .research-section h3{margin:.3rem 0 .6rem 0;}
 
   /* Divider */
   .research-divider{margin:1.25rem 0;border:none;border-top:1px solid rgba(0,0,0,.15)}
