@@ -124,27 +124,7 @@ permalink: /Research/
 </nav>
 <section id="work-in-progress" class="research-section">
   <h1>Under Review</h1>
-
-  <ul class="paper-list">
-    <li class="paper-card">
-      <p class="paper-title"><b>A Wasserstein-Equivalent Metric for the Space of Probability Distributions</b><br>M. Mohammadi</p>
-      <details class="paper-details">
-        <summary>Abstract</summary>
-        <div class="paper-abstract">
-          Viewing the space of probability measures on \(\mathcal{X}\) as a metric space endowed with a Wasserstein distance, we speak of a Wasserstein Space. The Wasserstein distance suffers from high computational complexity, leaving numerous virtually intriguing problems outside of the compass of available algorithms. In this paper, we introduce Toscani–Fourier distance \(T_{s,p}\) a new metric on a dense subspace of probability measures with p-finite moments along with the topological properties of the space induced by this metric, such as convergence, completeness, etc as well as the analysis of its behavior in a high dimensional space. Under suitable moment and tail decay conditions, we prove that this metric is equivalent to the $p-$Wasserstein distance on this subspace. The Toscani–Fourier distance $T_{s,p}$ offers significant computational advantages over Wasserstein distances on this suitably restricted, but dense, subspace. Its simplicity, parallelism, and sensitivity to distributional features make it a promising alternative for a wide range of applications where exact optimal transport is infeasible or unnecessary. Image processing demonstration shows empirical advantages and the equivalence with $p-$Wasserstein.
-        </div>
-      </details>
-    </li>
-    <li class="paper-card">
-      <p class="paper-title"><b>Semiparametric Time to Event Analysis with Dating Errors</b><br> M. Mohammadi, Simpson, D. G</p>
-      <details class="paper-details">
-        <summary>Abstract</summary>
-        <div class="paper-abstract">
-          Many biomedical survival studies rely on a clinically dated time scale (e.g., last menstrual period or early ultrasound), yet subjects’ true biological time is shifted by an unknown, subject-specific origin error. We study longitudinal biomarkers and right-censored event times under a common additive shift model in which all observed visit times for a subject are translated by the same unknown amount, inducing systematic misalignment across individuals. Exploiting the fact that time increments and residual life from each visit are invariant to the shift, we develop a landmark-style survival framework that fits hazards on error-free residual times using dynamic covariates summarizing baseline risk, biomarker history, and visit-to-visit increments. To represent biomarker evolution without parametric dating-error assumptions, we estimate biomarker mechanisms nonparametrically via RKHS conditional mean embeddings, yielding flexible history-to-biomarker regression at each landmark. We establish what is identifiable under the common-shift structure alone—robust inference for latent residual-life distributions—and characterize additional conditions (injectivity/completeness of biomarker–age mapping) under which the latent biological clock and the conditional distribution of the latent terminal time are point-identified through a convolution decomposition. Simulations and a real-data application illustrate practical performance.
-        </div>
-      </details>
-    </li>
-  </ul>
+  {% bibliography -f publications -q @*[status=under-review] -T pub_card %}
 </section>
 
 <hr class="research-divider" />
@@ -153,59 +133,13 @@ permalink: /Research/
   <h1>Publications</h1>
 
   <h2 id="theory-and-methods">Theory and Methods</h2>
-  <p class="paper-meta">
-        <li class="paper-card">
-      <p class="paper-title">
-        <b>Off-policy Distributional Reinforcement Learning </b><br> M. Mohammadi, Q. Zheng, and R.Zhu</p>
-      <details class="paper-details">
-        <summary>Abstract</summary>
-        <div class="paper-abstract">
-          We propose an (offline) multi-dimensional distributional reinforcement learning framework (KE-DRL) that leverages Hilbert space mappings to estimate the kernel mean embedding of the multi-dimensional value distribution under a proposed target policy. In our setting the state-action are multi-dimensional and continuous. By mapping probability measures into a reproducing kernel Hilbert space via kernel mean embeddings, our method replaces Wasserstein metrics with a integral probability metric. This enables efficient estimation in multi-dimensional state–action spaces and reward settings, where direct computation of Wasserstein distances is computationally challenging. Theoretically, we establish contraction properties of the distributional Bellman operator under our proposed metric involving the Matérn family of kernels and provide uniform convergence guarantees. Simulations and empirical results demonstrate robust off-policy evaluation and recovery of kernel mean embedding under mild assumptions, namely, Lipschitz continuity and boundedness for the kernels, highlighting the potential of our embedding-based approaches in complex, real-world decision-making scenarios and risk evaluations.
-        </div></li> <div class="paper-links">
-          <a class="pill" href="https://mehrdadmhmdi.github.io/Research/" target="_blank">Manuscript</a>
-        </div>
-      </details>
-    
-<hr class="research-divider" />
-  <h2 id="interdisciplinary-collaborations">Interdisciplinary Collaborations</h2>
+  {% bibliography -f publications -q @*[topic=theory-and-methods && status!=under-review] -T pub_card %}
 
   <h3 id="medical-sciences">Medical Sciences</h3>
-
-  <ul class="paper-list">
-    <li class="paper-card">
-      <p class="paper-title">
-        Michelle Villegas-Downs, Mehrdad Mohammadi, Aiguo Han,, William D. O'Brien Jr., Douglas G. Simpson, Tara A. Peters,Judith M. Schlaeger, and McFarlin, Barbara L.
-        "Trajectory of Postpartum Cervical Remodeling in Women Delivering Full-term and Spontaneous Preterm: Sensitivity to Quantitative Ultrasound Biomarkers",
-        <i> Ultrasound in Medicine &amp; Biology,</i>(2024)
-      </p>
-      <div class="paper-links">
-        <a class="pill" href="https://www.sciencedirect.com/science/article/pii/S0301562924002618" target="_blank">Manuscript</a>
-      </div>
-    </li>
-    <li class="paper-card">
-      <p class="paper-title">
-        McFarlin, Barbara L., Michelle Villegas-Downs, Mehrdad Mohammadi, Aiguo Han, Douglas G. Simpson, and William D. O'Brien Jr.
-        "Enhanced identification of women at risk for preterm birth via quantitative ultrasound: a prospective cohort study."
-        <i>American Journal of Obstetrics &amp; Gynecology MFM</i> 6, no. 5 (2024): 101250
-      </p>
-      <div class="paper-links">
-        <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S2589933323003920" target="_blank">Manuscript</a>
-      </div>
-    </li>
-    <li class="paper-card">
-      <p class="paper-title">
-        McFarlin, Barbara L., Yuxuan Liu, Michelle Villegas-Downs, Mehrdad Mohammadi, Douglas G. Simpson, Aiguo Han, and William D. O'Brien Jr.
-        "Predicting Spontaneous Pre-term Birth Risk Is Improved When Quantitative Ultrasound Data Are Included With Historical Clinical Data."
-        <i>Ultrasound in Medicine &amp; Biology,</i> 49, no. 5 (2023)
-      </p>
-      <div class="paper-links">
-        <a class="pill" href="https://www.sciencedirect.com/science/article/abs/pii/S0301562922006834" target="_blank">Manuscript</a>
-      </div>
-    </li>
-  </ul>
+  {% bibliography -f publications -q @*[topic=medical-sciences] -T pub_card %}
 
   <h3 id="business-analytics">Business Analytics</h3>
-  <p class="paper-meta"></p>
+  {% bibliography -f publications -q @*[topic=business-analytics] -T pub_card %}
 </section>
 
 </div>
