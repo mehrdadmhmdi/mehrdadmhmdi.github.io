@@ -1,24 +1,34 @@
 ---
 ---
 <div class="paper-card" id="{{ entry.key }}">
-  <p class="paper-title"><b>{{ entry.title }}</b></p>
+  <div class="paper-title"><b>{{ entry.title }}</b></div>
 
   {%- comment -%}
-  Clean the formatted reference:
-  - remove duplicated title
-  - remove anything starting from DOI url (https://doi.org/...)
-  - also handle "doi:" form
+  Make reference safe:
+  1) decode &lt; &gt; so we can strip tags
+  2) strip all tags (removes <p>, </p>, stray </li>, etc)
+  3) remove duplicated title
+  4) remove any trailing URL (doi/url) since you already have a Manuscript button
   {%- endcomment -%}
-  {%- assign ref0 = reference | replace: entry.title, '' -%}
-  {%- assign ref1 = ref0 | replace: '  ', ' ' | strip -%}
 
-  {%- assign ref2 = ref1 | split: 'https://doi.org/' -%}
-  {%- assign ref3 = ref2[0] -%}
+  {%- assign ref = reference | strip -%}
+  {%- assign ref = ref | replace: '&lt;', '<' | replace: '&gt;', '>' -%}
+  {%- assign ref = ref | strip_html | strip -%}
+  {%- assign ref = ref | replace: entry.title, '' | strip -%}
 
-  {%- assign ref4 = ref3 | split: 'doi:' -%}
-  {%- assign ref_clean = ref4[0] | strip -%}
+  {%- if ref contains 'http' -%}
+    {%- assign ref = ref | split: 'http' | first | strip -%}
+  {%- endif -%}
 
-  <p class="paper-meta">{{ ref_clean }}</p>
+  {%- assign ref = ref
+      | replace: '(Published)', ''
+      | replace: 'Published', ''
+      | replace: '  ', ' '
+      | replace: '..', '.'
+      | strip
+  -%}
+
+  <div class="paper-meta">{{ ref }}</div>
 
   <div class="paper-actions">
     {% if entry.abstract %}
