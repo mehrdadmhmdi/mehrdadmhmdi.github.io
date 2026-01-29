@@ -127,10 +127,9 @@ permalink: /Research/
 <nav class="research-nav">
   <a href="#work-in-progress">Under Review</a>
   <a href="#theory-and-methods">Theory and Methods</a>
-  <a href="#medical-sciences">Medical Science Collaborations</a>
   <a href="#interdisciplinary-research">Interdisciplinary Research</a>
-  <a href="#business-analytics">Business Analytic Collaborations</a>
 </nav>
+
 
 <section id="work-in-progress" class="research-section">
   <h1>Under Review</h1>
@@ -143,16 +142,15 @@ permalink: /Research/
   <h1>Publications</h1>
 
   <h3 id="theory-and-methods">Theory and Methods</h3>
-  {% bibliography -f publications -q @*[topic=theory-and-methods && status!=under-review] -T pub_card %}
-
-  <h3 id="medical-sciences">Medical Sciences</h3>
-  {% bibliography -f publications -q @*[topic=medical-sciences] -T pub_card %}
+  {% bibliography -f publications -q @*[topic=theory-and-methods && pubstatus!=under-review] -T pub_card %}
 
   <h3 id="interdisciplinary-research">Interdisciplinary Research</h3>
-  {% bibliography -f publications -q @*[topic=interdisciplinary-research] -T pub_card %}
 
-  <h3 id="business-analytics">Business Analytics</h3>
-  {% bibliography -f publications -q @*[topic=business-analytics] -T pub_card %}
+  <h4 id="medical-sciences">Medical Sciences</h4>
+  {% bibliography -f publications -q @*[topic=medical-sciences && pubstatus!=under-review] -T pub_card %}
+
+  <h4 id="business-analytics">Business Analytics</h4>
+  {% bibliography -f publications -q @*[topic=business-analytics && pubstatus!=under-review] -T pub_card %}
 </section>
 
 </div>
