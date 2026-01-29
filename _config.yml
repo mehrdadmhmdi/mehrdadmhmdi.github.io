@@ -25,7 +25,7 @@ navigation:
 
 # External links (icons)
 external:
-  - {title: Mail, icon: envelope, url: "mailto:mehrdad3@illinois.com"}
+  - {title: Mail, icon: envelope, url: "mailto:mehrdad3@illinois.edu"}
   - {title: google-scholar, icon: google-scholar, url: "https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en"}
   - {title: Github, icon: github, url: "https://github.com/mehrdadmhmdi"}
   - {title: X, icon: x-twitter, url: "https://twitter.com/mehrdad_mhmd"}
