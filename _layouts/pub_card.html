@@ -1,0 +1,27 @@
+---
+---
+<div class="paper-card" id="{{ entry.key }}">
+  <p class="paper-title"><b>{{ entry.title }}</b><br>{{ reference }}</p>
+
+  {% if entry.abstract %}
+  <details class="paper-details">
+    <summary>Abstract</summary>
+    <div class="paper-abstract">{{ entry.abstract }}</div>
+  </details>
+  {% endif %}
+
+  {% assign has_links = entry.url or entry.doi or entry.eprint %}
+  {% if has_links %}
+  <div class="paper-links">
+    {% if entry.url %}
+      <a class="pill" href="{{ entry.url }}" target="_blank" rel="noopener">Manuscript</a>
+    {% endif %}
+    {% if entry.doi %}
+      <a class="pill" href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">DOI</a>
+    {% endif %}
+    {% if entry.archivePrefix == "arXiv" and entry.eprint %}
+      <a class="pill" href="https://arxiv.org/abs/{{ entry.eprint }}" target="_blank" rel="noopener">arXiv</a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
