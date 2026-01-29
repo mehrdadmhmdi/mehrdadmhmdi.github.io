@@ -68,7 +68,7 @@ permalink: /Research/
     font-size:.9rem;
 
     /* make Abstract and Manuscript same color */
-    color: rgba(255,95,5,.92);
+    color: rgba(0,0,0,.1);
     background: rgba(255,255,255,.04);
   }
   .pill:hover{border-color:rgba(255,255,255,.35)}
