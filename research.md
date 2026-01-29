@@ -55,13 +55,8 @@ permalink: /Research/
   .paper-title{margin:0;font-size:.9rem;font-weight:500;line-height:1.35}
 
   /* ACTION ROW (Abstract + Manuscript on same line) */
-  .paper-actions{
-    margin:.55rem 0 0 0;
-    display:flex;
-    flex-wrap:wrap;
-    gap:.45rem;
-    align-items:center;
-  }
+  .paper-meta{margin:.25rem 0 0 0;opacity:.9;line-height:1.35}
+  .paper-actions{margin:.55rem 0 0 0;display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;}
 
   .pill{
     display:inline-flex;
@@ -79,7 +74,7 @@ permalink: /Research/
   .pill:hover{border-color:rgba(255,255,255,.35)}
   .pill:visited{color: rgba(255,95,5,.92);}
 
-  details.paper-details{margin:0;}
+  details.paper-details{display:inline-block;margin:0;}
   details.paper-details > summary::-webkit-details-marker{display:none}
 
   .paper-abstract{
@@ -152,5 +147,4 @@ permalink: /Research/
   <h4 id="business-analytics">Business Analytics</h4>
   {% bibliography -f publications -q @*[topic=business-analytics && pubstatus!=under-review] -T pub_card %}
 </section>
-
 </div>
