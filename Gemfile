@@ -6,5 +6,5 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-category-pages"
   gem 'jekyll-tagging'
-  gem "jekyll-scholar"
+  gem "jekyll-scholar", group: :jekyll_plugins
 end
