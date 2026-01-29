@@ -1,7 +1,24 @@
 ---
 ---
 <div class="paper-card" id="{{ entry.key }}">
-  <p class="paper-title"><b>{{ entry.title }}</b><br>{{ reference }}</p>
+  <p class="paper-title"><b>{{ entry.title }}</b></p>
+
+  {%- comment -%}
+  Clean the formatted reference:
+  - remove duplicated title
+  - remove anything starting from DOI url (https://doi.org/...)
+  - also handle "doi:" form
+  {%- endcomment -%}
+  {%- assign ref0 = reference | replace: entry.title, '' -%}
+  {%- assign ref1 = ref0 | replace: '  ', ' ' | strip -%}
+
+  {%- assign ref2 = ref1 | split: 'https://doi.org/' -%}
+  {%- assign ref3 = ref2[0] -%}
+
+  {%- assign ref4 = ref3 | split: 'doi:' -%}
+  {%- assign ref_clean = ref4[0] | strip -%}
+
+  <p class="paper-meta">{{ ref_clean }}</p>
 
   <div class="paper-actions">
     {% if entry.abstract %}
@@ -14,7 +31,7 @@
     {% if entry.url %}
       <a class="pill" href="{{ entry.url }}" target="_blank" rel="noopener">Manuscript</a>
     {% elsif entry.eprint and (entry.archivePrefix == "arXiv" or entry.archiveprefix == "arXiv") %}
-      <a class="pill" href="https://arxiv.org/abs/{{ entry.eprint }}" target="_blank" rel="noopener">arXiv</a>
+      <a class="pill" href="https://arxiv.org/abs/{{ entry.eprint }}" target="_blank" rel="noopener">Manuscript</a>
     {% endif %}
   </div>
 </div>
