@@ -4,16 +4,18 @@
 @import index, font, basic, layout
 
 html
-  background: lighten($dark, 30%)
+  background: #FFFFFF
   padding: 0 calc(38% - 20em)
 
 body
-  box-shadow: 0 0 0 1px rgba(lighten($dark, 30%), 0.3)
+  background: #FFFFFF
+  color: #13294B
+  box-shadow: 0 0 0 1px rgba(#13294B, 0.12)
 
 body > header, body > footer
-  background: lighten($dark, 4%)
-  color: $light
-  box-shadow: 0 1px rgba($light, 0.08), 0 -1px rgba($light, 0.08)
+  background: #FFFFFF
+  color: #13294B
+  box-shadow: 0 1px rgba(#13294B, 0.08), 0 -1px rgba(#13294B, 0.08)
 
 body > header, body > article, body > footer
   padding: 1.5em
@@ -22,6 +24,14 @@ body > header, body > article, body > footer
   body > header, body > article, body > footer
     padding: 1.65em calc(20% - 4em)
 
+/* Force light theme even if user has dark mode */
 @media (prefers-color-scheme: dark)
-  html, body > header, body > footer
-    background: $dark
+  html, body, body > header, body > article, body > footer
+    background: #FFFFFF
+  body
+    color: #13294B
+a
+  color: #13294B
+  text-decoration-color: rgba(#13294B, 0.35)
+a:hover
+  text-decoration-color: rgba(#13294B, 0.65)
