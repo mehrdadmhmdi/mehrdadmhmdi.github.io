@@ -141,7 +141,7 @@ permalink: /Research/
 
   <h3 id="interdisciplinary-research">Interdisciplinary Research</h3>
 
-  <h4 id="medical-sciences">Medical Sciences</h4>
+  <h4 id="medical-sciences">Biomedical Sciences</h4>
   {% bibliography -f publications -q @*[topic=medical-sciences && status!=under-review] -T pub_card %}
 
   <h4 id="computational-biophysics">Computational Biophysics and Biochemistry</h4>
