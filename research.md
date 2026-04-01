@@ -144,7 +144,8 @@ permalink: /Research/
   <h4 id="medical-sciences">Medical Sciences</h4>
   {% bibliography -f publications -q @*[topic=medical-sciences && status!=under-review] -T pub_card %}
 
-  <h4 id="business-analytics">Business Analytics</h4>
-  {% bibliography -f publications -q @*[topic=business-analytics && status!=under-review] -T pub_card %}
+  <h4 id="computational-biophysics">Computational Biophysics and Biochemistry</h4>
+  {% bibliography -f publications -q @*[topic=computational-biophysics && status!=under-review] -T pub_card %}
+  
 </section>
 </div>
