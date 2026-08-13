@@ -3,6 +3,7 @@ layout: page
 title: "News"
 permalink: /news/
 ---
+<li><strong>August 2026:</strong> Paper <i>"SILK: Shift-Invariant Landmark Kernels for Dynamic Risk Prediction with an Unknown Time Origin"</i> Presented at The Joint Statistical Meetings- Boston, MA</li>
 <li><strong>November 2025:</strong> Larine Y. Cowan Make A Difference Leadership Award.<i> OVCDEI, at the U of I</i></li>
 <li><strong>August 2025:</strong> Paper <i>"Distributional Reinforcement Learning: A Hilbert Space Embedding Approach"</i> Presented at The Joint Statistical Meetings- Nashville, TN</li>
 <li><strong>April 2025:</strong> Illinois International Graduate Achievement Award. <a href="https://blogs.illinois.edu/view/6758/627615639" target="_blank"> [News Link 1]</a>  and <a href="https://international.illinois.edu/awards-funding/achievement/grad.html" target="_blank"> [News Link 2].</a> </li>
