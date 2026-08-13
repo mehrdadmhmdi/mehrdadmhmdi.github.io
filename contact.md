@@ -3,7 +3,8 @@ layout: page
 title: "Contact"
 permalink: /Contact/
 ---
-616 E Green Street, Room 212,<br/>
-Champaign, IL 61820
+600 S Goodwin Ave, Chemical & Life Sciences Building A <br/>
+Room A550 <br/>
+Urbana, IL 61801
 
 **E-mail:** mehrdad3@illinois.edu
