@@ -44,14 +44,5 @@ scholar:
   locale: en
   sort_by: year
   order: descending
-  # Keep LaTeX delimiters in abstract text so the page's KaTeX renderer can typeset them.
-  bibtex_filters:
-    - smallcaps
-    - superscript
-    - italics
-    - textit
-    - lowercase
-    - textregistered
-    - tiny
   bibliography_template: pub_card
 

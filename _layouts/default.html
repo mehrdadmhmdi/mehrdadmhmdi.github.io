@@ -16,8 +16,41 @@
 {% if page.mathjax or site.mathjax %}
 <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
 <script defer src="{{ "/assets/katex/katex.min.js" | relative_url }}"></script>
+<script>
+  function prepareAbstractMath() {
+    document.querySelectorAll('.paper-abstract').forEach(function (element) {
+      var text = element.textContent;
+      var expressions = [];
+
+      function protect(pattern, latex) {
+        text = text.replace(pattern, function () {
+          var token = '__ABSTRACT_MATH_' + expressions.length + '__';
+          expressions.push('\\(' + latex + '\\)');
+          return token;
+        });
+      }
+
+      protect(/\\mathcal P_p\(\\mathbb R\^d\)/g, '\\mathcal P_p(\\mathbb R^d)');
+      protect(/\\mathrm T(?:_\{s,p\}|_s,p|\{s,p\})/g, '\\mathrm T_{s,p}');
+      protect(/\\mathrm T(?:_\{s,2\}|_s,2|\{s,2\})/g, '\\mathrm T_{s,2}');
+      protect(/\\mathbb R\^d/g, '\\mathbb R^d');
+      protect(/1\\le p<(?:\\infty|∞)/g, '1\\le p<\\infty');
+      protect(/d\/p<s<1\+d\/p/g, 'd/p<s<1+d/p');
+      protect(/1<p<(?:\\infty|∞)/g, '1<p<\\infty');
+      protect(/L\^p/g, 'L^p');
+      protect(/W_p\^\s*s-d\/p/g, 'W_p^{s-d/p}');
+      protect(/W_p/g, 'W_p');
+      protect(/p=2/g, 'p=2');
+
+      expressions.forEach(function (expression, index) {
+        text = text.replace('__ABSTRACT_MATH_' + index + '__', expression);
+      });
+      element.textContent = text;
+    });
+  }
+</script>
 <script defer src="/assets/katex/contrib/auto-render.min.js"
-  onload="renderMathInElement(document.body,{
+  onload="prepareAbstractMath(); renderMathInElement(document.body,{
     delimiters:[
       {left:'$$', right:'$$', display:true},
       {left:'$',  right:'$',  display:false},
