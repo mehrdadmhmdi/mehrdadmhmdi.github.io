@@ -31,6 +31,7 @@
       }
 
       protect(/\\mathcal P_p\(\\mathbb R\^d\)/g, '\\mathcal P_p(\\mathbb R^d)');
+      protect(/\\mathrm T(?:_\{s,p\}|_s,p|\{s,p\})\\lesssim W_p\^\s*s-d\/p/g, '\\mathrm T_{s,p}\\lesssim W_p^{s-d/p}');
       protect(/\\mathrm T(?:_\{s,p\}|_s,p|\{s,p\})/g, '\\mathrm T_{s,p}');
       protect(/\\mathrm T(?:_\{s,2\}|_s,2|\{s,2\})/g, '\\mathrm T_{s,2}');
       protect(/\\mathbb R\^d/g, '\\mathbb R^d');
