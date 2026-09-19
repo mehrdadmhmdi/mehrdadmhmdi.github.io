@@ -4,6 +4,10 @@ title: ""
 ---
 
 
-I'm Postdoctoral Research Fellow at the [Beckman Institute](https://beckman.illinois.edu/) working with the Science and Technology Center for [Quantitative Cell Biology](https://qcb.illinois.edu/). I received my PhD from the [Department of Statistics](https://stat.illinois.edu/) at the University of Illinois Urbana-Champaign under supervision of [Ruoqing Zhu](https://sites.google.com/site/teazrq/home?authuser=0), [Douglas G Simpson](https://stat.illinois.edu/directory/profile/dgs) and [Qi Zheng](https://louisville.edu/sphis/directory/qi-zheng-phd).
-<img src="images/mypic.jpg" align=center style="width:250px;height:250px">                                   
+<div class="home-intro">
+  <div class="home-intro-text">
+    <p>I'm Postdoctoral Research Fellow at the <a href="https://beckman.illinois.edu/">Beckman Institute</a> working with the Science and Technology Center for <a href="https://qcb.illinois.edu/">Quantitative Cell Biology</a>. I received my PhD from the <a href="https://stat.illinois.edu/">Department of Statistics</a> at the University of Illinois Urbana-Champaign under supervision of <a href="https://sites.google.com/site/teazrq/home?authuser=0">Ruoqing Zhu</a>, <a href="https://stat.illinois.edu/directory/profile/dgs">Douglas G Simpson</a> and <a href="https://louisville.edu/sphis/directory/qi-zheng-phd">Qi Zheng</a>.</p>
+  </div>
+  <img class="home-intro-image" src="{{ '/images/mypic.jpg' | relative_url }}" alt="Portrait of Mehrdad Mohammadi">
+</div>
 
