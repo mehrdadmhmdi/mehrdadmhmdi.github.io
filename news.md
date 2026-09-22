@@ -3,6 +3,42 @@ layout: page
 title: "News"
 permalink: /news/
 ---
+<style>
+  .news-filter {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin: .25rem 0 1.25rem 0;
+  }
+
+  .news-filter label {
+    margin: .5em 0;
+  }
+
+  .news-filter select {
+    display: inline-block;
+    padding: .35rem .6rem;
+    border: 1px solid rgba(255,255,255,.18);
+    border-radius: 999px;
+    color: rgba(255,95,5,.92);
+    background: rgba(255,255,255,.04);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .news-filter select:hover,
+  .news-filter select:focus {
+    border-color: rgba(255,255,255,.35);
+    outline: none;
+  }
+
+  .news-filter option {
+    color: #fff;
+    background: #212f3d;
+  }
+</style>
+
 <div class="news-filter">
   <label for="news-year">Filter by year:</label>
   <select id="news-year" aria-label="Filter news by year">
