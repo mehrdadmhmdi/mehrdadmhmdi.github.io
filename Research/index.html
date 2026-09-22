@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Research | Mehrdad Mohammadi</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Mehrdad Mohammadi">
+<meta name="generator" content="Jekyll v4.2.2">
+<link rel="canonical" href="/Research/">
+
+<link rel="stylesheet" href="/assets/css/index.css">
+
+<link rel="stylesheet" href="/assets/css/classes.css">
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Mehrdad Mohammadi">
+
+<link rel="stylesheet" href="/assets/katex/katex.min.css">
+<script defer src="/assets/katex/katex.min.js"></script>
+<script>
+  function prepareAbstractMath() {
+    document.querySelectorAll('.paper-abstract').forEach(function (element) {
+      var text = element.textContent;
+      var expressions = [];
+
+      function protect(pattern, latex) {
+        text = text.replace(pattern, function () {
+          var token = '__ABSTRACT_MATH_' + expressions.length + '__';
+          expressions.push('\\(' + latex + '\\)');
+          return token;
+        });
+      }
+
+      protect(/\\mathcal P_p\(\\mathbb R\^d\)/g, '\\mathcal P_p(\\mathbb R^d)');
+      protect(/\\mathrm T(?:_\{s,p\}|_s,p|\{s,p\})\\lesssim W_p\^\s*s-d\/p/g, '\\mathrm T_{s,p}\\lesssim W_p^{s-d/p}');
+      protect(/\\mathrm T(?:_\{s,p\}|_s,p|\{s,p\})/g, '\\mathrm T_{s,p}');
+      protect(/\\mathrm T(?:_\{s,2\}|_s,2|\{s,2\})/g, '\\mathrm T_{s,2}');
+      protect(/\\mathbb R\^d/g, '\\mathbb R^d');
+      protect(/1\\le p<(?:\\infty|∞)/g, '1\\le p<\\infty');
+      protect(/d\/p<s<1\+d\/p/g, 'd/p<s<1+d/p');
+      protect(/1<p<(?:\\infty|∞)/g, '1<p<\\infty');
+      protect(/L\^p/g, 'L^p');
+      protect(/W_p\^\s*s-d\/p/g, 'W_p^{s-d/p}');
+      protect(/W_p/g, 'W_p');
+      protect(/p=2/g, 'p=2');
+
+      expressions.forEach(function (expression, index) {
+        text = text.replace('__ABSTRACT_MATH_' + index + '__', expression);
+      });
+      element.textContent = text;
+    });
+  }
+</script>
+<script defer src="/assets/katex/contrib/auto-render.min.js"
+  onload="prepareAbstractMath(); renderMathInElement(document.body,{
+    delimiters:[
+      {left:'$$', right:'$$', display:true},
+      {left:'$',  right:'$',  display:false},
+      {left:'\\(', right:'\\)', display:false},
+      {left:'\\[', right:'\\]', display:true}
+    ],
+    throwOnError:false
+  });">
+</script>
+
+
+
+
+
+
+
+<header>
+  <a href="/" class="title">Mehrdad Mohammadi</a>
+  <nav><a aria-label="Home" href="/" ><span aria-hidden="true">Home</span></a><a aria-label="News" href="/news/" ><span aria-hidden="true">News</span></a><a aria-label="CV" href="/cv/" ><span aria-hidden="true">CV</span></a><a aria-label="Research" href="/Research/" class="selected"><span aria-hidden="true">Research</span></a><a aria-label="Software" href="/Software/" ><span aria-hidden="true">Software</span></a><a aria-label="Genealogy" href="/Genealogy/" ><span aria-hidden="true">Genealogy</span></a><a aria-label="Contact" href="/Contact/" ><span aria-hidden="true">Contact</span></a></nav>
+
+  <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
+</header>
+
+<article>
+  <header><h1><a href="/Research/">Research</a></h1></header>
+  <style>
+  /* Page wrapper */
+  .research-page{max-width:980px;margin:0 auto;padding:0.5rem 0;}
+
+  /* Top tagline */
+  .research-tagline{margin:0 0 0.45rem 0;font-size:0.85rem;line-height:1.5}
+
+  /* Quick nav */
+  .research-nav{display:flex;flex-wrap:wrap;gap:.5rem;margin:.25rem 0 1.25rem 0}
+  .research-nav a{
+    display:inline-block;
+    padding:.35rem .6rem;
+    border:1px solid rgba(0,0,0,.15);
+    border-radius:999px;
+    text-decoration:none;
+    font-size:.75rem;
+    color: rgba(255,95,5,.92);
+    background: rgba(255,255,255,.04);
+    border-color: rgba(255,255,255,.18);
+  }
+  .research-nav a:hover{
+    color: #fff;
+    border-color: rgba(255,255,255,.35);
+    border:1.5px;
+  }
+  .research-nav a:visited{ color: rgba(255,95,5,.92); }
+
+  /* Section titles */
+  .research-section{margin:1.25rem 0}
+  .research-section h1{ color: rgba(255,95,5,.92); }
+  .research-section h2,
+  .research-section h3{ color:#7aa6ff; margin:.3rem 0 .6rem 0; }
+  .research-section h4{ color:rgba(255,255,255,.92); margin:.85rem 0 .45rem 0; font-weight:600; }
+
+  /* Divider */
+  .research-divider{margin:1.25rem 0;border:none;border-top:1px solid rgba(0,0,0,.15)}
+
+  /* Lists -> cards */
+  ol.bibliography{list-style:none;padding:0;margin:0;display:grid;gap:.45rem;}
+  ol.bibliography > li{margin:0;}
+
+  .paper-card{
+    border:0.8px solid rgba(0,0,0,.15);
+    border-radius:11px;
+    padding:.85rem .9rem;
+    background:rgba(0,0,0,.01);
+    font-size:.8rem;
+  }
+  .paper-title{margin:0;font-size:.9rem;font-weight:500;line-height:1.35}
+
+  /* ACTION ROW (Abstract + Manuscript on same line) */
+  .paper-meta{margin:.25rem 0 0 0;opacity:.9;line-height:1.35}
+  .paper-actions{margin:.55rem 0 0 0;display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;}
+
+  .pill{
+    display:inline-flex;
+    align-items:center;
+    padding:.28rem .6rem;
+    border:1px solid rgba(255,255,255,.18);
+    border-radius:999px;
+    text-decoration:none;
+    font-size:.9rem;
+
+    /* make Abstract and Manuscript same color */
+    color: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,.04);
+  }
+  .pill:hover{border-color:rgba(255,255,255,.35)}
+  .pill:visited{color: rgba(255,255,255,0.9);}
+
+  details.paper-details{display:inline-block;margin:0;}
+  details.paper-details > summary::-webkit-details-marker{display:none}
+
+  .paper-abstract{
+    margin:.55rem 0 0 0;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    padding:.65rem .5rem;
+    border-left:3px solid rgba(255,255,255,.18);
+    background:rgba(255,255,255,.03);
+    border-radius:10px;
+    font-style: normal;
+    display:block;
+  }
+
+  /* icons */
+  .icon-link + .icon-link{display:inline-flex;align-items:center;gap:.4rem;margin-left:1.1rem;}
+  .icon{width:1em;height:1em;vertical-align:-.12em}
+
+  /* Small screens */
+  @media (max-width:600px){
+    .paper-card{padding:.8rem}
+  }
+</style>
+
+<div class="research-page">
+
+<p class="research-tagline"><strong>Statistical Learning, Reinforcement Learning, Reproducing Kernel Hilbert Spaces, Non-parametric Statistics, Machine Learning and Statistics Applications</strong></p>
+
+<a class="icon-link" href="https://github.com/mehrdadmhmdi" target="_blank" rel="noopener">
+  <svg class="icon" aria-hidden="true">
+    <use href="/assets/fontawesome/icons.svg#github"></use>
+  </svg>
+  GitHub
+</a>
+
+<a class="icon-link" href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+    <svg class="icon" aria-hidden="true">
+      <use href="/assets/fontawesome/icons.svg#google-scholar"></use>
+    </svg>
+  Google Scholar
+</a>
+
+<nav class="research-nav">
+  <a href="#work-in-progress">Under Review</a>
+  <a href="#theory-and-methods">Theory and Methods</a>
+  <a href="#interdisciplinary-research">Interdisciplinary Research</a>
+</nav>
+
+
+<section id="work-in-progress" class="research-section">
+  <h1>Under Review</h1>
+  <ol class="bibliography"><li><div class="paper-card" id="mohammadi_wasserstein_equivalent_metric_2026">
+  <div class="paper-title"><b>Toscani–Fourier Distance on Probability Measures: Wasserstein Control, Topological Equivalence on Model Classes, and Duality</b></div><div class="paper-meta">Mohammadi, M. (2026).</div>
+
+  <div class="paper-actions">
+    
+      <details class="paper-details">
+        <summary class="pill">Abstract</summary>
+        <div class="paper-abstract">Comparing probability measures in machine learning trades transport geometry against computational cost: Wasserstein distances encode the geometry of \mathbb R^d but require solving a transport problem, while kernel discrepancies are cheap to evaluate yet depend delicately on their test class. We study the Toscani–Fourier family \mathrm T_s,p, the weighted L^p norm of the difference of two characteristic functions, as a continuous Fourier-side discrepancy on \mathbb R^d. For 1\le p&lt;∞we show that d/p&lt;s&lt;1+d/p is exactly the window in which \mathrm T_s,p is finite on \mathcal P_p(\mathbb R^d), both endpoints already failing for a pair of Dirac measures, and we establish the metric, embedding, and compactness structure of the resulting space, which we prove to be complete. Duality identifies \mathrm T_s,p as an integral probability metric over a homogeneous Fourier–Lebesgue ball, with an explicit extremizer when 1&lt;p&lt;∞. We prove the global bound \mathrm T_s,p≲W_p^ s-d/p, whose exponent is sharp, show that no global converse of any form can hold, and recover topological equivalence with W_p on bounded-support and uniform-tail classes, together with explicit reverse moduli on bounded-support classes that improve the imported energy-kernel exponent at p=2. There, \mathrm T_s,2 is a constant multiple of the classical energy distance, which yields an exact finite-sample identity for the mean of the empirical discrepancy; the numerical experiments are otherwise diagnostic.
+</div>
+      </details>
+    
+
+    
+      <a class="pill" href="https://arxiv.org/abs/2609.23163" target="_blank" rel="noopener">Manuscript</a>
+    
+  </div>
+</div>
+</li>
+<li><div class="paper-card" id="mohammadi_simpson_dating_errors_2026">
+  <div class="paper-title"><b>SILK: Shift-Invariant Landmark Kernels for Dynamic Risk Prediction with an Unknown Time Origin</b></div><div class="paper-meta">Mohammadi, M., &amp; Simpson, D. G. (2026).</div>
+
+  <div class="paper-actions">
+    
+      <details class="paper-details">
+        <summary class="pill">Abstract</summary>
+        <div class="paper-abstract">Dynamic prediction in longitudinal studies often conditions on age or disease duration measured from an estimated rather than observed origin, leading to systematic timing errors. We propose Shift-Invariant Landmark Kernels (SILK), a modular calibration approach that uses biomarker histories to correct landmark age before modeling residual event risk. SILK aligns individual biomarker trajectories with age-indexed population templates through a weighted maximum mean discrepancy criterion, allowing robust prediction despite missing information about origin times. We establish theoretical properties including identifiability, consistency, and valid large-sample inference and demonstrate through simulations that SILK recovers much of the performance lost to timing error without incurring appreciable loss of efficiency when age is correctly measured. Application to the Multicenter AIDS Cohort Study shows substantial improvement over landmarking on the recorded clock at every disease-duration landmark, with the largest gains at intermediate durations. These results indicate that SILK is most valuable when the origin-time error substantially affects the prediction, and it neither helps nor hurts when the origin error is small.
+</div>
+      </details>
+    
+
+    
+  </div>
+</div>
+</li>
+<li><div class="paper-card" id="mohammadi2026vectorvalued_drl_policy_evaluation">
+  <div class="paper-title"><b>Vector-Valued Distributional Reinforcement Learning Policy Evaluation: A Hilbert Space Embedding Approach</b></div><div class="paper-meta">Mohammadi, M., Zheng, Q., &amp; Zhu, R. (2026).</div>
+
+  <div class="paper-actions">
+    
+      <details class="paper-details">
+        <summary class="pill">Abstract</summary>
+        <div class="paper-abstract">We propose an (offline) multi-dimensional distributional reinforcement learning framework (KE-DRL) that leverages Hilbert space mappings to estimate the kernel mean embedding of the multi-dimensional value distribution under a proposed target policy. In our setting the state-action are multi-dimensional and continuous. By mapping probability measures into a reproducing kernel Hilbert space via kernel mean embeddings, our method replaces Wasserstein metrics with a integral probability metric. This enables efficient estimation in multi-dimensional state–action spaces and reward settings, where direct computation of Wasserstein distances is computationally challenging. Theoretically, we establish contraction properties of the distributional Bellman operator under our proposed metric involving the Matérn family of kernels and provide uniform convergence guarantees. Simulations and empirical results demonstrate robust off-policy evaluation and recovery of kernel mean embedding under mild assumptions, namely, Lipschitz continuity and boundedness for the kernels, highlighting the potential of our embedding-based approaches in complex, real-world decision-making scenarios and risk evaluations.</div>
+      </details>
+    
+
+    
+      <a class="pill" href="https://arxiv.org/abs/2601.18952" target="_blank" rel="noopener">Manuscript</a>
+    
+  </div>
+</div>
+</li></ol>
+</section>
+
+<hr class="research-divider" />
+
+<section id="publications" class="research-section">
+  <h1>Publications</h1>
+
+  <h3 id="theory-and-methods">Theory and Methods</h3>
+  <ol class="bibliography"></ol>
+
+  <h3 id="interdisciplinary-research">Interdisciplinary Research</h3>
+
+  <h4 id="medical-sciences">Biomedical Sciences</h4>
+  <ol class="bibliography"><li><div class="paper-card" id="villegasdowns2024trajectory_postpartum_cervical">
+  <div class="paper-title"><b>Trajectory of Postpartum Cervical Remodeling in Women Delivering Full-Term and Spontaneous Preterm: Sensitivity to Quantitative Ultrasound Biomarkers</b></div><div class="paper-meta">Villegas-Downs, M., Mohammadi, M., Han, A., O’Brien, J., William D., Simpson, D. G., Peters, T. A., Schlaeger, J. M., &amp; McFarlin, B. L. (2024). Ultrasound in Medicine &amp; Biology, 50(12), 1777–1784.</div>
+
+  <div class="paper-actions">
+    
+      <details class="paper-details">
+        <summary class="pill">Abstract</summary>
+        <div class="paper-abstract">Women with a history of spontaneous preterm birth face an elevated risk of recurrence, but the biological basis of that risk remains unclear. This prospective study followed 55 women, including 41 full-term and 14 spontaneous preterm births, at 6 weeks and 3, 6, 9, and 12 months postpartum. Quantitative ultrasound biomarkers of cervical tissue were analyzed with descriptive statistics and linear mixed-effects models. Backscatter Coefficient and Lizzi–Feleppa Intercept measures showed significant differences between the groups, and all biomarkers displayed significant changes over time. The findings indicate that quantitative ultrasound can detect distinct cervical remodeling trajectories during the first year after delivery and may help characterize differences associated with spontaneous preterm birth.</div>
+      </details>
+    
+
+    
+      <a class="pill" href="https://doi.org/10.1016/j.ultrasmedbio.2024.06.015" target="_blank" rel="noopener">Manuscript</a>
+    
+  </div>
+</div>
+</li>
+<li><div class="paper-card" id="mcfarlin2024_enhanced_identification_preterm_qus">
+  <div class="paper-title"><b>Enhanced Identification of Women at Risk for Preterm Birth via Quantitative Ultrasound: A Prospective Cohort Study</b></div><div class="paper-meta">McFarlin, B. L., Villegas-Downs, M., Mohammadi, M., Han, A., Simpson, D. G., &amp; O’Brien, J., William D. (2024). American Journal of Obstetrics &amp; Gynecology MFM, 6(5), 101250.</div>
+
+  <div class="paper-actions">
+    
+      <details class="paper-details">
+        <summary class="pill">Abstract</summary>
+        <div class="paper-abstract">Clinical history alone has limited accuracy for identifying women at risk of spontaneous preterm birth, particularly before symptoms appear. This prospective cohort study evaluated whether quantitative ultrasound measurements of the cervix could improve risk assessment at approximately 20 and 24 weeks of gestation. Models using historical clinical features alone were compared with models that also incorporated ultrasound features derived from calibrated radiofrequency signals. The clinical-only model had an estimated area under the receiver operating characteristic curve of 0.56, while adding quantitative ultrasound increased the estimate to 0.63 at the first visit and 0.69 at the second, with a statistically significant improvement at the later visit. These results support quantitative ultrasound as a useful complement to clinical history for assessing spontaneous preterm birth risk as pregnancy progresses.</div>
+      </details>
+    
+
+    
+      <a class="pill" href="https://doi.org/10.1016/j.ajogmf.2023.101250" target="_blank" rel="noopener">Manuscript</a>
+    
+  </div>
+</div>
+</li>
+<li><div class="paper-card" id="mcfarlin2023_predicting_sptb_qus_plus_history">
+  <div class="paper-title"><b>Predicting Spontaneous Pre-term Birth Risk Is Improved When Quantitative Ultrasound Data Are Included With Historical Clinical Data</b></div><div class="paper-meta">McFarlin, B. L., Liu, Y., Villegas-Downs, M., Mohammadi, M., Simpson, D. G., Han, A., &amp; O’Brien, J., William D. (2023). Ultrasound in Medicine &amp; Biology, 49(5), 1145–1152.</div>
+
+  <div class="paper-actions">
+    
+      <details class="paper-details">
+        <summary class="pill">Abstract</summary>
+        <div class="paper-abstract">Predicting spontaneous preterm birth from clinical history and routine examination remains difficult. This study compared models based on historical clinical information alone with models that also used quantitative ultrasound features of the cervix in 274 births, including 248 full-term and 26 spontaneous preterm outcomes. Ultrasound scans were obtained at approximately 20 and 24 weeks of gestation, and model performance was assessed using likelihood ratio tests, cross-validated receiver operating characteristic curves, sensitivity, and specificity. The combined clinical and ultrasound model achieved an area under the curve of 0.68, compared with 0.53 for clinical history alone, and the contribution of ultrasound features was statistically significant. The results suggest that quantitative ultrasound adds predictive information beyond historical clinical data, even in a relatively small sample of spontaneous preterm births.</div>
+      </details>
+    
+
+    
+      <a class="pill" href="https://doi.org/10.1016/j.ultrasmedbio.2022.12.018" target="_blank" rel="noopener">Manuscript</a>
+    
+  </div>
+</div>
+</li></ol>
+
+  <h4 id="computational-biophysics">Computational Biophysics and Biochemistry</h4>
+  <ol class="bibliography"></ol>
+  
+</section>
+</div>
+
+</article>
+
+
+
+<footer>
+  <div>University of Illinois at Urbana-Champaign</div>
+  <nav><a aria-label="Mail" href="mailto:mehrdad3@illinois.edu" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a><a aria-label="google-scholar" href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#google-scholar"></use></svg></a><a aria-label="Github" href="https://github.com/mehrdadmhmdi" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#github"></use></svg></a><a aria-label="X" href="https://twitter.com/mehrdad_mhmd" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#x-twitter"></use></svg></a><a aria-label="Linkedin" href="https://www.linkedin.com/in/mehrdadmohammadi/" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#linkedin"></use></svg></a></nav>
+
+</footer>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
+</html>

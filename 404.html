@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>404: Page not found | Mehrdad Mohammadi</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Mehrdad Mohammadi">
+<meta name="generator" content="Jekyll v4.2.2">
+<link rel="canonical" href="/404.html">
+
+<link rel="stylesheet" href="/assets/css/index.css">
+
+<link rel="stylesheet" href="/assets/css/classes.css">
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Mehrdad Mohammadi">
+
+<link rel="stylesheet" href="/assets/katex/katex.min.css">
+<script defer src="/assets/katex/katex.min.js"></script>
+<script>
+  function prepareAbstractMath() {
+    document.querySelectorAll('.paper-abstract').forEach(function (element) {
+      var text = element.textContent;
+      var expressions = [];
+
+      function protect(pattern, latex) {
+        text = text.replace(pattern, function () {
+          var token = '__ABSTRACT_MATH_' + expressions.length + '__';
+          expressions.push('\\(' + latex + '\\)');
+          return token;
+        });
+      }
+
+      protect(/\\mathcal P_p\(\\mathbb R\^d\)/g, '\\mathcal P_p(\\mathbb R^d)');
+      protect(/\\mathrm T(?:_\{s,p\}|_s,p|\{s,p\})\\lesssim W_p\^\s*s-d\/p/g, '\\mathrm T_{s,p}\\lesssim W_p^{s-d/p}');
+      protect(/\\mathrm T(?:_\{s,p\}|_s,p|\{s,p\})/g, '\\mathrm T_{s,p}');
+      protect(/\\mathrm T(?:_\{s,2\}|_s,2|\{s,2\})/g, '\\mathrm T_{s,2}');
+      protect(/\\mathbb R\^d/g, '\\mathbb R^d');
+      protect(/1\\le p<(?:\\infty|∞)/g, '1\\le p<\\infty');
+      protect(/d\/p<s<1\+d\/p/g, 'd/p<s<1+d/p');
+      protect(/1<p<(?:\\infty|∞)/g, '1<p<\\infty');
+      protect(/L\^p/g, 'L^p');
+      protect(/W_p\^\s*s-d\/p/g, 'W_p^{s-d/p}');
+      protect(/W_p/g, 'W_p');
+      protect(/p=2/g, 'p=2');
+
+      expressions.forEach(function (expression, index) {
+        text = text.replace('__ABSTRACT_MATH_' + index + '__', expression);
+      });
+      element.textContent = text;
+    });
+  }
+</script>
+<script defer src="/assets/katex/contrib/auto-render.min.js"
+  onload="prepareAbstractMath(); renderMathInElement(document.body,{
+    delimiters:[
+      {left:'$$', right:'$$', display:true},
+      {left:'$',  right:'$',  display:false},
+      {left:'\\(', right:'\\)', display:false},
+      {left:'\\[', right:'\\]', display:true}
+    ],
+    throwOnError:false
+  });">
+</script>
+
+
+
+
+
+
+
+<header>
+  <a href="/" class="title">Mehrdad Mohammadi</a>
+  <nav><a aria-label="Home" href="/" ><span aria-hidden="true">Home</span></a><a aria-label="News" href="/news/" ><span aria-hidden="true">News</span></a><a aria-label="CV" href="/cv/" ><span aria-hidden="true">CV</span></a><a aria-label="Research" href="/Research/" ><span aria-hidden="true">Research</span></a><a aria-label="Software" href="/Software/" ><span aria-hidden="true">Software</span></a><a aria-label="Genealogy" href="/Genealogy/" ><span aria-hidden="true">Genealogy</span></a><a aria-label="Contact" href="/Contact/" ><span aria-hidden="true">Contact</span></a></nav>
+
+  <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css">
+</header>
+
+<article>
+  <header><h1>404</h1></header>
+  <p>Page not found</p>
+</article>
+
+
+
+<footer>
+  <div>University of Illinois at Urbana-Champaign</div>
+  <nav><a aria-label="Mail" href="mailto:mehrdad3@illinois.edu" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#envelope"></use></svg></a><a aria-label="google-scholar" href="https://scholar.google.com/citations?user=ALnHM1oAAAAJ&hl=en" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#google-scholar"></use></svg></a><a aria-label="Github" href="https://github.com/mehrdadmhmdi" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#github"></use></svg></a><a aria-label="X" href="https://twitter.com/mehrdad_mhmd" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#x-twitter"></use></svg></a><a aria-label="Linkedin" href="https://www.linkedin.com/in/mehrdadmohammadi/" ><svg aria-hidden="true" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#linkedin"></use></svg></a></nav>
+
+</footer>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
+</html>
